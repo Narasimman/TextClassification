@@ -1,0 +1,8 @@
+2016-05-07 12:18:55,680 : INFO : topic #0 (0.125): 0.046*say + 0.023*pct + 0.022*share + 0.020*company + 0.017*billion + 0.015*dlrs + 0.011*reuter + 0.011*group + 0.010*inc + 0.009*year
+2016-05-07 12:18:55,681 : INFO : topic #1 (0.125): 0.036*say + 0.023*reuter + 0.022*share + 0.016*april + 0.014*corp + 0.014*dividend + 0.013*stock + 0.013*record + 0.012*ct + 0.011*offer
+2016-05-07 12:18:55,681 : INFO : topic #2 (0.125): 0.052*say + 0.015*company + 0.013*share + 0.010*mln + 0.009*dlrs + 0.009*stock + 0.009*pct + 0.008*oil + 0.008*reuter + 0.006*inc
+2016-05-07 12:18:55,682 : INFO : topic #3 (0.125): 0.036*say + 0.018*pct + 0.014*rate + 0.010*dollar + 0.009*market + 0.009*bank + 0.008*reuter + 0.008*would + 0.008*currency + 0.007*oil
+2016-05-07 12:18:55,682 : INFO : topic #4 (0.125): 0.070*mln + 0.048*dlrs + 0.025*say + 0.024*year + 0.018*net + 0.018*reuter + 0.015*ct + 0.014*quarter + 0.013*share + 0.012*company
+2016-05-07 12:18:55,682 : INFO : topic #5 (0.125): 0.097*mln + 0.080*loss + 0.071*net + 0.060*ct + 0.048*shr + 0.037*dlrs + 0.035*profit + 0.029*rev + 0.028*reuter + 0.027*year
+2016-05-07 12:18:55,683 : INFO : topic #6 (0.125): 0.034*say + 0.026*trade + 0.014*japan + 0.013*would + 0.008*reuter + 0.007*japanese + 0.007*year + 0.006*state + 0.006*official + 0.006*gencorp
+2016-05-07 12:18:55,683 : INFO : topic #7 (0.125): 0.034*say + 0.034*bank + 0.019*mln + 0.015*reuter + 0.015*rate + 0.013*pct + 0.013*loss + 0.011*dlrs + 0.009*market + 0.008*year
