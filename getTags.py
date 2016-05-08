@@ -1,6 +1,6 @@
 import re
 
-with open('response-money-fx.txt', 'r') as content_file:
+with open('data/TaggedData/response-money-fx.txt', 'r') as content_file:
     content = content_file.read()
 content = content.replace("\n","",100000000)
 content = content.replace("<sentence>","\n",10000000)

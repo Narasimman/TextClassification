@@ -62,7 +62,8 @@ class ReutersParser(HTMLParser):
                       'topics': self.topics,
                       'new_id': self.attributes["newid"],
                       'lewis_split': self.attributes["lewissplit"],
-                      'cgi_split': self.attributes["cgisplit"]})
+                      'cgi_split': self.attributes["cgisplit"]
+                      })
     self._reset()
 
   def start_title(self, attributes):
@@ -103,6 +104,13 @@ def get_reuters_documents(data_path=None):
   for filename in glob(os.path.join(data_path, "*.sgm")):
     for doc in parser.parse(open(filename, 'rb')):
         yield doc
+
+if __name__ == "__main__":
+  doc_gen = get_reuters_documents("/home/sims/nlp/TextClassification/data/")  
+
+  for doc in list(doc_gen):
+    
+    print doc
 
 '''
 Example usage:
