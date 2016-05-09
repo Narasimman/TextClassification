@@ -4,7 +4,7 @@ import wordcloud
 MODELS_DIR = "data"
 
 output_dir = "output"
-final_topics = open(os.path.join(MODELS_DIR, "final_topics.txt"), 'rb')
+final_topics = open(os.path.join(MODELS_DIR, "final_topics_0.txt"), 'rb')
 curr_topic = 0
 for line in final_topics:
   line = line.strip()[line.rindex(":") + 2:]

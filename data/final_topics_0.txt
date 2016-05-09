@@ -1,0 +1,5 @@
+0:0.041*share + 0.040*company + 0.022*dlrs + 0.017*group + 0.016*stock + 0.016*reuter + 0.013*offer + 0.012*corp + 0.011*pct + 0.011*inc
+1:0.028*year + 0.021*mln + 0.020*reuter + 0.018*company + 0.017*dlrs + 0.016*sale + 0.013*tonne + 0.012*quarter + 0.011*product + 0.008*production
+2:0.146*mln + 0.098*ct + 0.064*loss + 0.046*shr + 0.045*reuter + 0.039*dlrs + 0.037*rev + 0.034*profit + 0.034*mths + 0.024*note
+3:0.037*reuter + 0.029*share + 0.025*ct + 0.021*stock + 0.019*dividend + 0.015*corp + 0.015*april + 0.014*pay + 0.013*company + 0.013*gas
+4:0.017*price + 0.017*oil + 0.017*rate + 0.016*market + 0.015*year + 0.015*trade + 0.015*pct + 0.014*bank + 0.013*reuter + 0.008*official

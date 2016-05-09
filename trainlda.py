@@ -35,9 +35,8 @@ class TagLDA():
     once_ids = [tokenid for tokenid, docfreq in 
       self.dictionary.dfs.iteritems() if docfreq == 1]
     self.dictionary.filter_tokens(once_ids)
-    self.dictionary.filter_extremes(no_above=5,keep_n=100000)
+    self.dictionary.filter_extremes()
     self.dictionary.compactify()
-    print len(self.dictionary)
 
   '''
   Creates the dictionary of all the cleaned and processed words in the documents
@@ -51,50 +50,73 @@ class TagLDA():
   '''
   def create_corpus(self):
     self.corpus = Corpus(self.dictionary)
+    #print list(self.corpus)
 
   '''
   The main function that runs the lda model on the corpus
   '''
-  def run(self,min_topics=6,max_topics=8,step=1):
-        l = np.array([sum(cnt for _, cnt in doc) for doc in self.corpus])
-        kl = []
+  def run(self,min_topics=5,max_topics=15,step=1):
+      l = np.array([sum(cnt for _, cnt in doc) for doc in self.corpus])
+      kl = []
     #for i in range(min_topics,max_topics,step):
-        self.model = models.ldamodel.LdaModel(corpus=self.corpus,
-            id2word=self.dictionary,num_topics=8)
-        #m1 = self.model.expElogbeta
-        #U,cm1,V = np.linalg.svd(m1)
+      self.model = models.ldamodel.LdaModel(corpus=self.corpus, 
+        id2word=self.dictionary,num_topics=max_topics, chunksize=1000)
+      m1 = self.model.expElogbeta
+      U,cm1,V = np.linalg.svd(m1)
         
-        #Document-topic matrix
-        lda_topics = self.model[self.corpus]
+      #Document-topic matrix
+      lda_topics = self.model[self.corpus]
+      print "lda done!"
+      #self.savetopics(i)
 
-        #m2 = matutils.corpus2dense(lda_topics, self.model.num_topics).transpose()
-        #cm2 = l.dot(m2)
-        #cm2 = cm2 + 0.0001
-        #cm2norm = np.linalg.norm(l)
-        #cm2 = cm2/cm2norm
-        #kl.append(self.sym_kl(cm1,cm2))
-        return kl
+      #m2 = matutils.corpus2dense(lda_topics, self.model.num_topics).transpose()
+      #cm2 = l.dot(m2)
+      #cm2 = cm2 + 0.0001
+      #cm2norm = np.linalg.norm(l)
+      #cm2 = cm2/cm2norm
+      #kl.append(self.sym_kl(cm1,cm2))
+      return kl
         
   #def sym_kl(self, p,q):
     #return np.sum([stats.entropy(p,q),stats.entropy(q,p)])
 
+  def savetopics(self, i):
+    topwords = self.model.show_topics(5)
+    print topwords
+
+    with open('data/final_topics_' + str(i) + '.txt', 'w') as f:
+      for word in topwords:
+        f.write(str(word[0]) + ":" + word[1] + "\n")
+
 if __name__ == "__main__":
   lda = TagLDA()
-  lda.process()
+  #lda.process()
   lda.create_dictionary()
   lda.create_corpus()
-  kl = lda.run(max_topics=8)
-  model = lda.model
-  model.print_topics(8)
+  #kl = lda.run(max_topics=5)
+  #model = lda.model
+  #model.save('data/lda.model')
+  model =  models.LdaModel.load('data/lda.model')
+  lda.model = model
+  #print list(model[lda.corpus])
+  lda.savetopics(00)
   print "\n\n\n\n\n"
 
 
   testtxt = "bowater industries profit exceed expectations bowater industries plc bwtr pretax profits mln stg exceeded market expectations mln and pushed company shares sharply high last night dealers shares eased back bowater reported mln stg profit company statement accompanying results that underlying trend showed improvement and intended expand developing existing businesses and seeking opportunities added that had appointed david lyon managing director redland plc rdld chief executive analysts noted that bowater profits mln stg mln previously had boost pension benefits mln stg profit australia and east showed greatest percentage rise jumping pct mln mln profit operations rose pct mln and europe pct mln reuter"
 
-  t = lda.dictionary.doc2bow(testtxt.lower().split())
+  #t = lda.dictionary.doc2bow(testtxt.lower().split())
   
-  print lda.model.get_document_topics(t)
-  print lda.model.get_topic_terms(1, topn=20)
+  
+  #print lda.model.get_document_topics(t)
+  
+  with open("test.txt", "w") as f:
+    for i in model.show_topics(num_topics=5, num_words=len(lda.dictionary), formatted=False):
+      for pair in i[1]:
+        f.write(pair[0] + " " + str(pair[1]) + "\n")
+      f.write("\n")
+
+  #print model.get_topic_terms(1, topn=len(lda.dictionary))
 
 
 

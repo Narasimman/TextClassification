@@ -14,7 +14,10 @@ shortword = re.compile(r'\W*\b\w{1,2}\b')
  
 tag_to_type = {'J': wordnet.ADJ, 'V': wordnet.VERB, 'R': wordnet.ADV}
 def get_wordnet_pos(treebank_tag):
+    #print treebank_tag[:1]
+    #print tag_to_type.get(treebank_tag[:1])
     return tag_to_type.get(treebank_tag[:1], wordnet.NOUN)
+
 
 def clean(text):
     clean_text = nonan.sub('',text)
@@ -22,10 +25,16 @@ def clean(text):
     filtered_words = [w for w in words if not w in stops]
     tags = nltk.pos_tag(filtered_words)
     #print tags
-    return ' '.join(
-        lmtzr.lemmatize(word, get_wordnet_pos(tag[1]))
-        for word, tag in zip(filtered_words, tags)
-    )
+    #tt = ' '.join(
+        #lmtzr.lemmatize(word, get_wordnet_pos(tag[1]))
+        #for word, tag in zip(filtered_words, tags))
+
+    cleaned = " "
+    for word, tag in zip(filtered_words, tags):
+      if tag[1] == 'NN' or tag[1] == 'NNS':
+        cleaned = cleaned + lmtzr.lemmatize(word) + " "
+    #print cleaned
+    return cleaned
 
 def processdata():
   with open('data/train.txt','r') as f:
