@@ -7,9 +7,8 @@ logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s',
 from gensim import corpora, models, similarities, matutils
 import numpy as np
 import scipy.stats as stats
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from Corpus import Corpus
-import preprocess
 
 
 nltk.download('averaged_perceptron_tagger')
@@ -19,6 +18,7 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 
 
+import preprocess
 '''
 An LDA model implementation that considers the POS tag of the sentence and 
 build lda model for the cluster of words that are tagged as NN/NNS
@@ -90,15 +90,15 @@ class TagLDA():
 
 if __name__ == "__main__":
   lda = TagLDA()
-  #lda.process()
+  lda.process()
   lda.create_dictionary()
   lda.create_corpus()
-  #kl = lda.run(max_topics=5)
-  #model = lda.model
-  #model.save('data/lda.model')
+  kl = lda.run(max_topics=5)
+  model = lda.model
+  model.save('data/lda.model')
   model =  models.LdaModel.load('data/lda.model')
   lda.model = model
-  #print list(model[lda.corpus])
+  print list(model[lda.corpus])
   lda.savetopics(00)
   print "\n\n\n\n\n"
 
