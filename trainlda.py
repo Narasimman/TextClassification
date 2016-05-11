@@ -2,7 +2,7 @@ import re, nltk
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import wordnet, stopwords
 import logging
-logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', 
+logging.basicConfig(filename='data/lda.log', format='%(asctime)s : %(levelname)s : %(message)s', 
     level=logging.INFO)
 from gensim import corpora, models, similarities, matutils
 import numpy as np
@@ -55,12 +55,12 @@ class TagLDA():
   '''
   The main function that runs the lda model on the corpus
   '''
-  def run(self,min_topics=5,max_topics=15,step=1):
+  def run(self,min_topics=5,max_topics=20,step=1):
       l = np.array([sum(cnt for _, cnt in doc) for doc in self.corpus])
       kl = []
     #for i in range(min_topics,max_topics,step):
       self.model = models.ldamodel.LdaModel(corpus=self.corpus, 
-        id2word=self.dictionary,num_topics=max_topics, chunksize=1000)
+        id2word=self.dictionary,num_topics=max_topics, chunksize=700, alpha='auto', passes=10)
       m1 = self.model.expElogbeta
       U,cm1,V = np.linalg.svd(m1)
         
@@ -81,7 +81,7 @@ class TagLDA():
     #return np.sum([stats.entropy(p,q),stats.entropy(q,p)])
 
   def savetopics(self, i):
-    topwords = self.model.show_topics(5)
+    topwords = self.model.show_topics(20)
     print topwords
 
     with open('data/final_topics_' + str(i) + '.txt', 'w') as f:
@@ -93,7 +93,7 @@ if __name__ == "__main__":
   lda.process()
   lda.create_dictionary()
   lda.create_corpus()
-  kl = lda.run(max_topics=15)
+  kl = lda.run(max_topics=10)
   model = lda.model
   model.save('data/lda.model')
   model =  models.LdaModel.load('data/lda.model')
@@ -111,7 +111,7 @@ if __name__ == "__main__":
   #print lda.model.get_document_topics(t)
   
   with open("test.txt", "w") as f:
-    for i in model.show_topics(num_topics=15, num_words=len(lda.dictionary), formatted=False):
+    for i in model.show_topics(num_topics=10, num_words=len(lda.dictionary), formatted=False):
       for pair in i[1]:
         f.write(pair[0] + " " + str(pair[1]) + "\n")
       f.write("\n")
