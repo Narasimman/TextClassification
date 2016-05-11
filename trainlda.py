@@ -93,7 +93,7 @@ if __name__ == "__main__":
   lda.process()
   lda.create_dictionary()
   lda.create_corpus()
-  kl = lda.run(max_topics=5)
+  kl = lda.run(max_topics=15)
   model = lda.model
   model.save('data/lda.model')
   model =  models.LdaModel.load('data/lda.model')
@@ -111,7 +111,7 @@ if __name__ == "__main__":
   #print lda.model.get_document_topics(t)
   
   with open("test.txt", "w") as f:
-    for i in model.show_topics(num_topics=5, num_words=len(lda.dictionary), formatted=False):
+    for i in model.show_topics(num_topics=15, num_words=len(lda.dictionary), formatted=False):
       for pair in i[1]:
         f.write(pair[0] + " " + str(pair[1]) + "\n")
       f.write("\n")

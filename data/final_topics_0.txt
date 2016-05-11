@@ -1,5 +1,5 @@
-0:0.015*market + 0.012*rate + 0.012*tonne + 0.011*reuter + 0.010*bank + 0.010*export + 0.010*year + 0.009*currency + 0.008*exchange + 0.008*country
-1:0.031*oil + 0.019*price + 0.017*company + 0.014*dlrs + 0.011*reuter + 0.009*mln + 0.008*production + 0.008*barrel + 0.007*year + 0.007*gas
-2:0.041*share + 0.028*company + 0.020*reuter + 0.020*stock + 0.020*pct + 0.019*dlrs + 0.018*bank + 0.018*inc + 0.014*group + 0.014*offer
-3:0.033*pct + 0.023*year + 0.018*trade + 0.017*billion + 0.010*reuter + 0.009*official + 0.008*price + 0.008*market + 0.008*japan + 0.007*state
-4:0.112*mln + 0.088*ct + 0.077*dlrs + 0.051*shr + 0.043*loss + 0.032*qtr + 0.029*reuter + 0.028*net + 0.027*profit + 0.025*rev
+8:0.073*share + 0.030*stock + 0.030*dlrs + 0.024*company + 0.020*offer + 0.019*mln + 0.017*dividend + 0.015*reuter + 0.014*shareholder + 0.014*inc
+5:0.033*trade + 0.021*japan + 0.016*official + 0.013*market + 0.011*week + 0.010*country + 0.010*policy + 0.009*state + 0.008*analyst + 0.007*bill
+4:0.019*dlrs + 0.010*reuter + 0.010*company + 0.010*repurchase + 0.009*stability + 0.009*taft + 0.009*recapitalization + 0.008*mln + 0.008*year + 0.007*gold
+13:0.029*reuter + 0.025*inc + 0.017*company + 0.013*april + 0.012*corp + 0.012*acquisition + 0.012*union + 0.010*trust + 0.009*sell + 0.009*unit
+3:0.043*company + 0.021*dlrs + 0.019*pct + 0.019*share + 0.014*stock + 0.014*sale + 0.012*reuter + 0.011*inc + 0.010*year + 0.010*mln
