@@ -1,0 +1,748 @@
+2016-05-10 21:46:24,715 : INFO : Could not import Theano, will use standard float for default ShardedCorpus dtype.
+2016-05-10 21:46:24,766 : INFO : 'pattern' package found; tag filters are available for English
+2016-05-10 21:56:32,221 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2016-05-10 21:56:33,158 : INFO : built Dictionary(13636 unique tokens: [u'aproveitamentos', u'glamis', u'compuscan', u'mdbl', u'nasouli']...) from 5485 documents (total 240358 corpus positions)
+2016-05-10 21:56:33,966 : INFO : using autotuned alpha, starting with [0.10000000000000001, 0.10000000000000001, 0.10000000000000001, 0.10000000000000001, 0.10000000000000001, 0.10000000000000001, 0.10000000000000001, 0.10000000000000001, 0.10000000000000001, 0.10000000000000001]
+2016-05-10 21:56:33,967 : INFO : using symmetric eta at 0.1
+2016-05-10 21:56:33,967 : INFO : using serial LDA version on this node
+2016-05-10 21:56:34,041 : WARNING : input corpus stream has no len(); counting documents
+2016-05-10 21:56:34,814 : INFO : running online LDA training, 10 topics, 10 passes over the supplied corpus of 5485 documents, updating model once every 700 documents, evaluating perplexity every 5485 documents, iterating 50x with a convergence threshold of 0.001000
+2016-05-10 21:56:34,933 : INFO : PROGRESS: pass 0, at document #700/5485
+2016-05-10 21:56:36,886 : INFO : optimized alpha [0.081756121019526021, 0.090006099828324387, 0.10867286276694732, 0.090459714217443185, 0.084922869395125292, 0.07826506462919651, 0.10723047939739556, 0.08392943382231656, 0.073136378040997013, 0.06519692624790091]
+2016-05-10 21:56:36,898 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:56:36,992 : INFO : topic #9 (0.065): 0.019*reuter + 0.017*ct + 0.012*corp + 0.011*share + 0.011*week + 0.011*march + 0.010*april + 0.008*group + 0.008*inc + 0.007*shareholder
+2016-05-10 21:56:36,994 : INFO : topic #8 (0.073): 0.016*company + 0.012*reuter + 0.011*oil + 0.010*share + 0.010*viacom + 0.010*dlrs + 0.009*china + 0.009*market + 0.008*year + 0.008*inc
+2016-05-10 21:56:36,995 : INFO : topic #3 (0.090): 0.051*ct + 0.049*loss + 0.035*share + 0.026*mln + 0.025*reuter + 0.020*dlrs + 0.017*shr + 0.015*inc + 0.013*year + 0.012*corp
+2016-05-10 21:56:36,996 : INFO : topic #6 (0.107): 0.059*dlrs + 0.045*ct + 0.040*mln + 0.019*shr + 0.019*year + 0.018*loss + 0.018*net + 0.016*reuter + 0.016*share + 0.014*oil
+2016-05-10 21:56:36,997 : INFO : topic #2 (0.109): 0.046*mln + 0.035*ct + 0.025*dlrs + 0.024*profit + 0.023*reuter + 0.020*year + 0.015*loss + 0.014*shr + 0.014*march + 0.012*company
+2016-05-10 21:56:36,998 : INFO : topic diff=8.980066, rho=1.000000
+2016-05-10 21:56:38,024 : INFO : PROGRESS: pass 0, at document #1400/5485
+2016-05-10 21:56:39,709 : INFO : optimized alpha [0.074105823265251849, 0.08454807169272277, 0.099071675805270099, 0.090388834082109126, 0.083679228123465094, 0.080853176922059247, 0.10780464191227594, 0.075761695860782616, 0.071812019578594233, 0.073860958540495278]
+2016-05-10 21:56:39,721 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:56:39,797 : INFO : topic #8 (0.072): 0.016*oil + 0.014*company + 0.012*bank + 0.010*market + 0.010*government + 0.009*reuter + 0.008*merger + 0.007*pct + 0.006*year + 0.006*budget
+2016-05-10 21:56:39,798 : INFO : topic #9 (0.074): 0.016*reuter + 0.012*share + 0.010*group + 0.009*inc + 0.009*usair + 0.008*twa + 0.008*corp + 0.007*week + 0.007*company + 0.007*merger
+2016-05-10 21:56:39,799 : INFO : topic #3 (0.090): 0.071*ct + 0.064*loss + 0.036*share + 0.033*reuter + 0.025*mln + 0.023*shr + 0.021*inc + 0.020*march + 0.018*dlrs + 0.018*dividend
+2016-05-10 21:56:39,801 : INFO : topic #2 (0.099): 0.051*mln + 0.026*bank + 0.022*year + 0.022*dlrs + 0.021*profit + 0.020*reuter + 0.018*ct + 0.016*pct + 0.015*rate + 0.015*billion
+2016-05-10 21:56:39,802 : INFO : topic #6 (0.108): 0.064*dlrs + 0.040*mln + 0.034*ct + 0.020*year + 0.019*oil + 0.017*price + 0.016*net + 0.015*loss + 0.015*shr + 0.014*reuter
+2016-05-10 21:56:39,803 : INFO : topic diff=1.224610, rho=0.707107
+2016-05-10 21:56:39,908 : INFO : PROGRESS: pass 0, at document #2100/5485
+2016-05-10 21:56:41,403 : INFO : optimized alpha [0.073247401173961141, 0.089504057765978182, 0.095691236542387328, 0.095599038471430031, 0.084107560578418283, 0.08019432165285785, 0.098295843733466295, 0.074910422514021247, 0.071600866417472139, 0.069486401633544054]
+2016-05-10 21:56:41,414 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:56:41,486 : INFO : topic #9 (0.069): 0.015*reuter + 0.010*share + 0.008*inc + 0.008*group + 0.008*month + 0.008*company + 0.007*corp + 0.007*week + 0.007*caesar + 0.007*venezuela
+2016-05-10 21:56:41,487 : INFO : topic #8 (0.072): 0.020*oil + 0.013*trade + 0.012*company + 0.010*bank + 0.009*market + 0.008*government + 0.008*official + 0.008*reuter + 0.007*japan + 0.007*export
+2016-05-10 21:56:41,488 : INFO : topic #3 (0.096): 0.094*ct + 0.059*loss + 0.040*reuter + 0.037*share + 0.024*inc + 0.023*april + 0.023*shr + 0.021*march + 0.019*dividend + 0.018*mln
+2016-05-10 21:56:41,489 : INFO : topic #2 (0.096): 0.050*mln + 0.028*bank + 0.026*year + 0.022*profit + 0.022*pct + 0.020*billion + 0.017*reuter + 0.016*dlrs + 0.015*stg + 0.014*rate
+2016-05-10 21:56:41,490 : INFO : topic #6 (0.098): 0.057*dlrs + 0.035*mln + 0.026*oil + 0.026*ct + 0.023*price + 0.019*opec + 0.016*year + 0.013*reuter + 0.013*company + 0.011*net
+2016-05-10 21:56:41,491 : INFO : topic diff=0.874253, rho=0.577350
+2016-05-10 21:56:41,590 : INFO : PROGRESS: pass 0, at document #2800/5485
+2016-05-10 21:56:42,785 : INFO : optimized alpha [0.074435916984957329, 0.09811905731836322, 0.091663379769626102, 0.096871263746434094, 0.081522595389846866, 0.082027463332929096, 0.090858133876174793, 0.075670520359397558, 0.070418507627953167, 0.067104620428413794]
+2016-05-10 21:56:42,797 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:56:42,862 : INFO : topic #9 (0.067): 0.014*reuter + 0.011*share + 0.009*group + 0.008*month + 0.008*twa + 0.008*inc + 0.008*usair + 0.008*company + 0.007*corp + 0.007*week
+2016-05-10 21:56:42,863 : INFO : topic #8 (0.070): 0.021*oil + 0.017*trade + 0.010*japan + 0.010*government + 0.010*company + 0.009*import + 0.009*official + 0.008*market + 0.008*house + 0.008*industry
+2016-05-10 21:56:42,864 : INFO : topic #2 (0.092): 0.044*mln + 0.031*bank + 0.031*year + 0.027*pct + 0.022*billion + 0.021*profit + 0.018*rate + 0.017*stg + 0.015*reuter + 0.014*dlrs
+2016-05-10 21:56:42,865 : INFO : topic #3 (0.097): 0.098*ct + 0.046*reuter + 0.046*loss + 0.037*share + 0.032*april + 0.027*dividend + 0.025*march + 0.024*inc + 0.022*div + 0.021*record
+2016-05-10 21:56:42,866 : INFO : topic #1 (0.098): 0.101*mln + 0.086*ct + 0.067*loss + 0.062*dlrs + 0.052*shr + 0.044*profit + 0.036*year + 0.032*net + 0.029*qtr + 0.027*rev
+2016-05-10 21:56:42,867 : INFO : topic diff=0.781444, rho=0.500000
+2016-05-10 21:56:42,969 : INFO : PROGRESS: pass 0, at document #3500/5485
+2016-05-10 21:56:44,068 : INFO : optimized alpha [0.077179353194853612, 0.10178306984117819, 0.090931657526848966, 0.10028361861102672, 0.082277436653002203, 0.085098876481372002, 0.08743255155293847, 0.077094098644904976, 0.071104578172025451, 0.068215952709252681]
+2016-05-10 21:56:44,080 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:56:44,146 : INFO : topic #9 (0.068): 0.013*reuter + 0.011*share + 0.009*usair + 0.009*court + 0.008*inc + 0.008*merger + 0.008*group + 0.008*twa + 0.008*caesar + 0.007*company
+2016-05-10 21:56:44,147 : INFO : topic #8 (0.071): 0.019*oil + 0.018*trade + 0.012*japan + 0.010*government + 0.009*state + 0.009*country + 0.008*minister + 0.008*official + 0.008*market + 0.008*import
+2016-05-10 21:56:44,148 : INFO : topic #2 (0.091): 0.044*mln + 0.034*bank + 0.032*year + 0.031*pct + 0.025*billion + 0.020*profit + 0.017*rate + 0.015*stg + 0.014*reuter + 0.013*market
+2016-05-10 21:56:44,149 : INFO : topic #3 (0.100): 0.093*ct + 0.050*reuter + 0.040*april + 0.037*share + 0.035*dividend + 0.029*loss + 0.025*inc + 0.025*div + 0.025*march + 0.022*record
+2016-05-10 21:56:44,150 : INFO : topic #1 (0.102): 0.104*mln + 0.084*ct + 0.078*loss + 0.067*dlrs + 0.052*shr + 0.045*profit + 0.037*year + 0.033*net + 0.029*qtr + 0.027*rev
+2016-05-10 21:56:44,151 : INFO : topic diff=0.713230, rho=0.447214
+2016-05-10 21:56:44,259 : INFO : PROGRESS: pass 0, at document #4200/5485
+2016-05-10 21:56:45,317 : INFO : optimized alpha [0.079775413854053207, 0.10545876562260151, 0.09325053532072633, 0.10053454107242935, 0.085856527264849117, 0.086607530619611281, 0.084064554384196064, 0.077323888595207155, 0.072976645483772959, 0.068347772348148456]
+2016-05-10 21:56:45,330 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:56:45,396 : INFO : topic #9 (0.068): 0.012*reuter + 0.011*share + 0.010*merger + 0.010*court + 0.010*group + 0.008*usair + 0.008*inc + 0.008*company + 0.007*exchange + 0.007*twa
+2016-05-10 21:56:45,397 : INFO : topic #8 (0.073): 0.022*trade + 0.016*oil + 0.014*japan + 0.011*government + 0.011*country + 0.010*minister + 0.009*market + 0.009*state + 0.008*industry + 0.008*world
+2016-05-10 21:56:45,398 : INFO : topic #2 (0.093): 0.045*mln + 0.032*bank + 0.032*pct + 0.030*year + 0.027*billion + 0.021*profit + 0.019*rate + 0.017*stg + 0.014*market + 0.014*reuter
+2016-05-10 21:56:45,399 : INFO : topic #3 (0.101): 0.088*ct + 0.050*reuter + 0.045*april + 0.042*share + 0.040*dividend + 0.027*div + 0.026*stock + 0.025*inc + 0.024*record + 0.021*march
+2016-05-10 21:56:45,400 : INFO : topic #1 (0.105): 0.114*mln + 0.086*ct + 0.083*loss + 0.064*dlrs + 0.053*shr + 0.042*profit + 0.038*year + 0.033*net + 0.029*qtr + 0.026*rev
+2016-05-10 21:56:45,401 : INFO : topic diff=0.692684, rho=0.408248
+2016-05-10 21:56:46,310 : INFO : PROGRESS: pass 0, at document #4900/5485
+2016-05-10 21:56:47,372 : INFO : optimized alpha [0.0835312540804036, 0.10913317907889909, 0.097866964277533525, 0.098363283605900728, 0.087706465026383795, 0.090701308153480223, 0.082925841326880953, 0.078425388872875132, 0.074802058237860056, 0.069242194618385017]
+2016-05-10 21:56:47,385 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:56:47,451 : INFO : topic #9 (0.069): 0.011*reuter + 0.011*court + 0.011*merger + 0.010*cpc + 0.010*share + 0.009*group + 0.009*exchange + 0.008*inc + 0.007*company + 0.007*airline
+2016-05-10 21:56:47,452 : INFO : topic #8 (0.075): 0.027*trade + 0.019*japan + 0.012*oil + 0.012*official + 0.011*government + 0.011*market + 0.011*state + 0.009*country + 0.009*minister + 0.008*import
+2016-05-10 21:56:47,453 : INFO : topic #2 (0.098): 0.043*mln + 0.036*bank + 0.031*pct + 0.030*year + 0.027*billion + 0.021*rate + 0.019*profit + 0.018*stg + 0.016*market + 0.013*reuter
+2016-05-10 21:56:47,454 : INFO : topic #3 (0.098): 0.077*ct + 0.048*reuter + 0.047*share + 0.044*april + 0.040*dividend + 0.033*stock + 0.025*inc + 0.023*div + 0.021*record + 0.019*split
+2016-05-10 21:56:47,455 : INFO : topic #1 (0.109): 0.111*mln + 0.092*loss + 0.086*ct + 0.064*dlrs + 0.052*shr + 0.042*profit + 0.041*year + 0.033*net + 0.027*qtr + 0.027*rev
+2016-05-10 21:56:47,457 : INFO : topic diff=0.694806, rho=0.377964
+2016-05-10 21:56:49,488 : INFO : -8.096 per-word bound, 273.6 perplexity estimate based on a held-out corpus of 585 documents with 24930 words
+2016-05-10 21:56:49,488 : INFO : PROGRESS: pass 0, at document #5485/5485
+2016-05-10 21:56:50,295 : INFO : optimized alpha [0.087979464038959371, 0.11052661908171743, 0.10163157105981221, 0.098537295432099978, 0.089454520502989451, 0.095880319136073033, 0.082919864384671055, 0.081069801605679767, 0.076057692114870415, 0.069928929872500725]
+2016-05-10 21:56:50,308 : INFO : merging changes from 585 documents into a model of 5485 documents
+2016-05-10 21:56:50,374 : INFO : topic #9 (0.070): 0.011*reuter + 0.010*court + 0.010*share + 0.009*group + 0.009*merger + 0.009*exchange + 0.008*cpc + 0.007*inc + 0.007*week + 0.007*company
+2016-05-10 21:56:50,375 : INFO : topic #8 (0.076): 0.026*trade + 0.018*japan + 0.014*official + 0.012*state + 0.011*government + 0.011*country + 0.011*market + 0.010*minister + 0.009*policy + 0.009*oil
+2016-05-10 21:56:50,376 : INFO : topic #3 (0.099): 0.069*ct + 0.050*share + 0.047*reuter + 0.044*april + 0.042*dividend + 0.036*stock + 0.027*inc + 0.021*div + 0.021*record + 0.018*split
+2016-05-10 21:56:50,377 : INFO : topic #2 (0.102): 0.044*bank + 0.040*mln + 0.039*pct + 0.035*rate + 0.026*year + 0.022*billion + 0.017*profit + 0.015*stg + 0.015*market + 0.014*reuter
+2016-05-10 21:56:50,378 : INFO : topic #1 (0.111): 0.108*mln + 0.098*loss + 0.088*ct + 0.067*dlrs + 0.052*shr + 0.040*year + 0.038*profit + 0.031*net + 0.028*rev + 0.027*reuter
+2016-05-10 21:56:50,379 : INFO : topic diff=0.607203, rho=0.353553
+2016-05-10 21:56:50,484 : INFO : PROGRESS: pass 1, at document #700/5485
+2016-05-10 21:56:51,339 : INFO : optimized alpha [0.087955992359364216, 0.11502052536501915, 0.10047222427230836, 0.099872737440964615, 0.086593250302128999, 0.091983115069372956, 0.082214772399984121, 0.079351612625709153, 0.073120115099728072, 0.064687018946841285]
+2016-05-10 21:56:51,353 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:56:51,420 : INFO : topic #9 (0.065): 0.013*usair + 0.011*twa + 0.011*reuter + 0.011*piedmont + 0.010*merger + 0.009*share + 0.009*group + 0.009*airline + 0.008*court + 0.008*exchange
+2016-05-10 21:56:51,421 : INFO : topic #8 (0.073): 0.026*trade + 0.017*japan + 0.015*official + 0.012*market + 0.012*country + 0.012*government + 0.012*state + 0.009*oil + 0.009*minister + 0.008*policy
+2016-05-10 21:56:51,422 : INFO : topic #3 (0.100): 0.080*ct + 0.052*share + 0.049*reuter + 0.042*dividend + 0.039*april + 0.036*stock + 0.032*march + 0.029*record + 0.027*div + 0.025*inc
+2016-05-10 21:56:51,423 : INFO : topic #2 (0.100): 0.040*bank + 0.039*mln + 0.037*pct + 0.032*rate + 0.028*year + 0.022*billion + 0.018*profit + 0.014*market + 0.014*stg + 0.013*reuter
+2016-05-10 21:56:51,424 : INFO : topic #1 (0.115): 0.109*mln + 0.092*ct + 0.092*loss + 0.072*dlrs + 0.054*shr + 0.040*profit + 0.039*year + 0.035*net + 0.030*qtr + 0.029*rev
+2016-05-10 21:56:51,425 : INFO : topic diff=0.457984, rho=0.333333
+2016-05-10 21:56:51,543 : INFO : PROGRESS: pass 1, at document #1400/5485
+2016-05-10 21:56:52,456 : INFO : optimized alpha [0.088025916261801923, 0.11493180576065994, 0.099629937395073295, 0.098742949770305483, 0.085775149923971658, 0.094062853598886248, 0.082625128647354343, 0.078079551411392667, 0.072783475698074779, 0.068043513787491003]
+2016-05-10 21:56:52,469 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:56:52,541 : INFO : topic #9 (0.068): 0.020*usair + 0.017*twa + 0.013*merger + 0.011*piedmont + 0.011*reuter + 0.011*share + 0.010*group + 0.009*inc + 0.008*airline + 0.007*company
+2016-05-10 21:56:52,543 : INFO : topic #8 (0.073): 0.023*trade + 0.016*official + 0.014*japan + 0.012*country + 0.012*market + 0.012*government + 0.011*state + 0.009*export + 0.009*minister + 0.009*oil
+2016-05-10 21:56:52,544 : INFO : topic #3 (0.099): 0.077*ct + 0.055*share + 0.049*reuter + 0.043*dividend + 0.038*march + 0.036*april + 0.035*stock + 0.028*record + 0.026*inc + 0.025*div
+2016-05-10 21:56:52,545 : INFO : topic #2 (0.100): 0.049*bank + 0.039*mln + 0.037*pct + 0.035*rate + 0.028*year + 0.024*billion + 0.017*profit + 0.015*market + 0.014*stg + 0.014*reuter
+2016-05-10 21:56:52,546 : INFO : topic #1 (0.115): 0.112*mln + 0.092*loss + 0.090*ct + 0.077*dlrs + 0.054*shr + 0.041*profit + 0.041*year + 0.035*net + 0.030*qtr + 0.028*rev
+2016-05-10 21:56:52,547 : INFO : topic diff=0.463822, rho=0.333333
+2016-05-10 21:56:52,652 : INFO : PROGRESS: pass 1, at document #2100/5485
+2016-05-10 21:56:53,452 : INFO : optimized alpha [0.088184108522004534, 0.11781312969807008, 0.099456433036488143, 0.098131496056376485, 0.086213528842402104, 0.093274042726872286, 0.080995772931610296, 0.07780382407542219, 0.072850064807445228, 0.066139161113557401]
+2016-05-10 21:56:53,466 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:56:53,532 : INFO : topic #9 (0.066): 0.016*usair + 0.014*twa + 0.013*merger + 0.011*reuter + 0.010*share + 0.009*caesar + 0.009*piedmont + 0.009*group + 0.009*inc + 0.008*court
+2016-05-10 21:56:53,533 : INFO : topic #8 (0.073): 0.027*trade + 0.016*official + 0.013*japan + 0.012*country + 0.011*market + 0.011*government + 0.010*export + 0.010*state + 0.009*minister + 0.008*oil
+2016-05-10 21:56:53,534 : INFO : topic #3 (0.098): 0.079*ct + 0.054*share + 0.050*reuter + 0.040*dividend + 0.040*april + 0.037*march + 0.034*stock + 0.028*record + 0.028*div + 0.026*inc
+2016-05-10 21:56:53,535 : INFO : topic #2 (0.099): 0.047*bank + 0.040*mln + 0.037*pct + 0.030*rate + 0.029*year + 0.025*billion + 0.019*profit + 0.015*stg + 0.014*market + 0.013*reuter
+2016-05-10 21:56:53,536 : INFO : topic #1 (0.118): 0.108*mln + 0.096*ct + 0.090*loss + 0.073*dlrs + 0.055*shr + 0.045*profit + 0.039*year + 0.037*net + 0.030*qtr + 0.029*rev
+2016-05-10 21:56:53,537 : INFO : topic diff=0.373931, rho=0.333333
+2016-05-10 21:56:53,638 : INFO : PROGRESS: pass 1, at document #2800/5485
+2016-05-10 21:56:54,401 : INFO : optimized alpha [0.089347549602161444, 0.12495643621822963, 0.09814022467612879, 0.098258874434080629, 0.084243431175168679, 0.093684640872640237, 0.078792506422051906, 0.079016386776732297, 0.072489969967191037, 0.064760612420033642]
+2016-05-10 21:56:54,414 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:56:54,481 : INFO : topic #9 (0.065): 0.016*usair + 0.015*twa + 0.011*merger + 0.011*reuter + 0.010*share + 0.010*court + 0.010*airline + 0.009*caesar + 0.009*group + 0.008*inc
+2016-05-10 21:56:54,482 : INFO : topic #8 (0.072): 0.028*trade + 0.015*official + 0.014*japan + 0.011*country + 0.011*government + 0.011*state + 0.010*market + 0.010*import + 0.009*export + 0.009*industry
+2016-05-10 21:56:54,483 : INFO : topic #2 (0.098): 0.046*bank + 0.038*pct + 0.038*mln + 0.031*year + 0.029*rate + 0.025*billion + 0.019*profit + 0.016*stg + 0.014*market + 0.013*reuter
+2016-05-10 21:56:54,484 : INFO : topic #3 (0.098): 0.083*ct + 0.051*reuter + 0.051*share + 0.044*april + 0.043*dividend + 0.038*march + 0.033*stock + 0.030*record + 0.029*div + 0.025*inc
+2016-05-10 21:56:54,485 : INFO : topic #1 (0.125): 0.103*mln + 0.099*ct + 0.090*loss + 0.068*dlrs + 0.057*shr + 0.043*profit + 0.038*year + 0.035*net + 0.032*qtr + 0.029*rev
+2016-05-10 21:56:54,486 : INFO : topic diff=0.357601, rho=0.333333
+2016-05-10 21:56:55,371 : INFO : PROGRESS: pass 1, at document #3500/5485
+2016-05-10 21:56:56,154 : INFO : optimized alpha [0.092062686357095566, 0.1264527959914323, 0.098476411756648674, 0.10117881818260248, 0.084579184534876423, 0.095347062793404047, 0.077623402836084515, 0.080573512270730424, 0.073170302970927095, 0.065417603108592084]
+2016-05-10 21:56:56,167 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:56:56,234 : INFO : topic #9 (0.065): 0.016*usair + 0.013*twa + 0.013*court + 0.012*merger + 0.010*reuter + 0.010*share + 0.010*caesar + 0.009*airline + 0.008*inc + 0.008*world
+2016-05-10 21:56:56,235 : INFO : topic #8 (0.073): 0.029*trade + 0.014*japan + 0.014*official + 0.013*country + 0.011*state + 0.011*government + 0.010*minister + 0.009*market + 0.009*import + 0.009*export
+2016-05-10 21:56:56,236 : INFO : topic #2 (0.098): 0.047*bank + 0.039*mln + 0.038*pct + 0.032*year + 0.027*billion + 0.026*rate + 0.018*profit + 0.015*market + 0.014*stg + 0.013*reuter
+2016-05-10 21:56:56,237 : INFO : topic #3 (0.101): 0.082*ct + 0.054*reuter + 0.048*april + 0.047*share + 0.046*dividend + 0.034*march + 0.033*stock + 0.030*div + 0.028*record + 0.025*inc
+2016-05-10 21:56:56,238 : INFO : topic #1 (0.126): 0.105*mln + 0.095*ct + 0.092*loss + 0.070*dlrs + 0.056*shr + 0.044*profit + 0.038*year + 0.035*net + 0.032*qtr + 0.029*rev
+2016-05-10 21:56:56,239 : INFO : topic diff=0.331546, rho=0.333333
+2016-05-10 21:56:56,346 : INFO : PROGRESS: pass 1, at document #4200/5485
+2016-05-10 21:56:57,160 : INFO : optimized alpha [0.094237618029262199, 0.12886949181477381, 0.1008399182220623, 0.10221918455712919, 0.087276561123019097, 0.095865360887559745, 0.076711161828178637, 0.08069241032560294, 0.07466922986663535, 0.065725583311062707]
+2016-05-10 21:56:57,172 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:56:57,239 : INFO : topic #9 (0.066): 0.014*court + 0.013*merger + 0.013*usair + 0.011*twa + 0.010*share + 0.010*reuter + 0.009*group + 0.008*inc + 0.008*airline + 0.008*company
+2016-05-10 21:56:57,240 : INFO : topic #8 (0.075): 0.030*trade + 0.015*japan + 0.013*country + 0.011*government + 0.011*minister + 0.010*official + 0.010*state + 0.010*market + 0.009*export + 0.008*industry
+2016-05-10 21:56:57,241 : INFO : topic #2 (0.101): 0.043*bank + 0.040*mln + 0.038*pct + 0.030*year + 0.028*billion + 0.025*rate + 0.020*profit + 0.016*stg + 0.016*market + 0.012*reuter
+2016-05-10 21:56:57,242 : INFO : topic #3 (0.102): 0.080*ct + 0.052*reuter + 0.051*share + 0.050*april + 0.047*dividend + 0.036*stock + 0.030*div + 0.028*record + 0.027*march + 0.025*inc
+2016-05-10 21:56:57,244 : INFO : topic #1 (0.129): 0.113*mln + 0.094*ct + 0.092*loss + 0.067*dlrs + 0.055*shr + 0.042*profit + 0.039*year + 0.035*net + 0.031*qtr + 0.028*reuter
+2016-05-10 21:56:57,245 : INFO : topic diff=0.319181, rho=0.333333
+2016-05-10 21:56:57,362 : INFO : PROGRESS: pass 1, at document #4900/5485
+2016-05-10 21:56:58,169 : INFO : optimized alpha [0.097523309623265622, 0.13125697049750801, 0.10521673322998372, 0.10066199021491752, 0.088830124164603494, 0.099275768664147571, 0.076913863903368823, 0.082050605439838317, 0.076343620122443057, 0.066473759570528715]
+2016-05-10 21:56:58,181 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:56:58,249 : INFO : topic #9 (0.066): 0.014*court + 0.014*merger + 0.011*cpc + 0.010*airline + 0.010*reuter + 0.009*share + 0.009*usair + 0.008*group + 0.008*exchange + 0.008*inc
+2016-05-10 21:56:58,250 : INFO : topic #8 (0.076): 0.034*trade + 0.019*japan + 0.014*official + 0.012*state + 0.012*government + 0.011*market + 0.011*country + 0.010*minister + 0.009*import + 0.008*export
+2016-05-10 21:56:58,251 : INFO : topic #3 (0.101): 0.071*ct + 0.054*share + 0.049*reuter + 0.049*april + 0.045*dividend + 0.041*stock + 0.026*div + 0.025*inc + 0.025*split + 0.024*record
+2016-05-10 21:56:58,253 : INFO : topic #2 (0.105): 0.044*bank + 0.039*mln + 0.036*pct + 0.029*year + 0.028*billion + 0.025*rate + 0.018*profit + 0.017*stg + 0.017*market + 0.014*dollar
+2016-05-10 21:56:58,254 : INFO : topic #1 (0.131): 0.112*mln + 0.097*loss + 0.093*ct + 0.066*dlrs + 0.054*shr + 0.043*profit + 0.041*year + 0.034*net + 0.029*qtr + 0.028*rev
+2016-05-10 21:56:58,255 : INFO : topic diff=0.317208, rho=0.333333
+2016-05-10 21:57:00,144 : INFO : -7.610 per-word bound, 195.4 perplexity estimate based on a held-out corpus of 585 documents with 24930 words
+2016-05-10 21:57:00,144 : INFO : PROGRESS: pass 1, at document #5485/5485
+2016-05-10 21:57:00,793 : INFO : optimized alpha [0.1014412155215202, 0.13104231932207727, 0.10928415156857468, 0.1006223177583421, 0.09074331668761064, 0.10372553636642881, 0.077700785792742144, 0.084725721963377826, 0.077508166250845931, 0.067366635823636029]
+2016-05-10 21:57:00,805 : INFO : merging changes from 585 documents into a model of 5485 documents
+2016-05-10 21:57:00,871 : INFO : topic #9 (0.067): 0.014*court + 0.011*merger + 0.009*reuter + 0.009*share + 0.009*cpc + 0.008*group + 0.008*exchange + 0.007*airline + 0.007*inc + 0.007*caesar
+2016-05-10 21:57:00,873 : INFO : topic #8 (0.078): 0.032*trade + 0.019*japan + 0.016*official + 0.013*country + 0.013*state + 0.012*government + 0.011*market + 0.011*minister + 0.010*policy + 0.008*world
+2016-05-10 21:57:00,874 : INFO : topic #5 (0.104): 0.026*company + 0.023*share + 0.021*pct + 0.020*group + 0.017*stake + 0.015*security + 0.014*stock + 0.013*bank + 0.012*board + 0.012*reuter
+2016-05-10 21:57:00,875 : INFO : topic #2 (0.109): 0.049*bank + 0.042*pct + 0.037*rate + 0.037*mln + 0.026*year + 0.022*billion + 0.016*profit + 0.015*market + 0.015*stg + 0.013*reuter
+2016-05-10 21:57:00,876 : INFO : topic #1 (0.131): 0.110*mln + 0.102*loss + 0.094*ct + 0.067*dlrs + 0.054*shr + 0.040*year + 0.039*profit + 0.032*net + 0.029*rev + 0.028*reuter
+2016-05-10 21:57:00,877 : INFO : topic diff=0.274754, rho=0.333333
+2016-05-10 21:57:00,991 : INFO : PROGRESS: pass 2, at document #700/5485
+2016-05-10 21:57:01,763 : INFO : optimized alpha [0.10172821192559656, 0.13544021991610983, 0.10791074652349651, 0.10247282301627283, 0.088191082572121479, 0.099811175876755545, 0.077834683409789149, 0.083900968633478318, 0.07518343418750241, 0.063018385467197999]
+2016-05-10 21:57:01,775 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:01,846 : INFO : topic #9 (0.063): 0.015*usair + 0.013*twa + 0.012*piedmont + 0.012*merger + 0.011*court + 0.011*airline + 0.009*reuter + 0.009*share + 0.009*group + 0.008*exchange
+2016-05-10 21:57:01,847 : INFO : topic #8 (0.075): 0.032*trade + 0.017*japan + 0.017*official + 0.013*country + 0.012*state + 0.012*market + 0.012*government + 0.010*export + 0.010*minister + 0.009*policy
+2016-05-10 21:57:01,849 : INFO : topic #3 (0.102): 0.076*ct + 0.054*share + 0.050*reuter + 0.046*dividend + 0.042*april + 0.041*stock + 0.035*march + 0.031*record + 0.028*div + 0.024*inc
+2016-05-10 21:57:01,850 : INFO : topic #2 (0.108): 0.046*bank + 0.040*pct + 0.036*mln + 0.034*rate + 0.027*year + 0.023*billion + 0.017*profit + 0.015*market + 0.014*stg + 0.013*reuter
+2016-05-10 21:57:01,852 : INFO : topic #1 (0.135): 0.110*mln + 0.097*ct + 0.095*loss + 0.072*dlrs + 0.055*shr + 0.040*profit + 0.039*year + 0.036*net + 0.031*qtr + 0.029*rev
+2016-05-10 21:57:01,854 : INFO : topic diff=0.260521, rho=0.316228
+2016-05-10 21:57:02,831 : INFO : PROGRESS: pass 2, at document #1400/5485
+2016-05-10 21:57:03,661 : INFO : optimized alpha [0.10172147383824583, 0.13353807135389945, 0.10721967369023991, 0.10174881417226464, 0.087602286200007165, 0.10214180994145206, 0.078822721930864301, 0.082992001018192096, 0.075347032804832265, 0.06628122342972266]
+2016-05-10 21:57:03,673 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:03,739 : INFO : topic #9 (0.066): 0.021*usair + 0.018*twa + 0.015*merger + 0.012*piedmont + 0.010*share + 0.010*reuter + 0.010*airline + 0.009*group + 0.008*inc + 0.008*world
+2016-05-10 21:57:03,740 : INFO : topic #8 (0.075): 0.029*trade + 0.018*official + 0.015*japan + 0.013*country + 0.012*market + 0.012*government + 0.012*state + 0.011*export + 0.010*minister + 0.008*policy
+2016-05-10 21:57:03,741 : INFO : topic #5 (0.102): 0.024*company + 0.023*group + 0.022*share + 0.021*pct + 0.019*stake + 0.016*security + 0.015*stock + 0.012*board + 0.012*reuter + 0.011*investment
+2016-05-10 21:57:03,742 : INFO : topic #2 (0.107): 0.054*bank + 0.039*pct + 0.036*rate + 0.036*mln + 0.027*year + 0.025*billion + 0.017*profit + 0.015*market + 0.014*stg + 0.013*reuter
+2016-05-10 21:57:03,743 : INFO : topic #1 (0.134): 0.113*mln + 0.095*loss + 0.094*ct + 0.076*dlrs + 0.055*shr + 0.042*profit + 0.040*year + 0.036*net + 0.031*qtr + 0.028*rev
+2016-05-10 21:57:03,744 : INFO : topic diff=0.277283, rho=0.316228
+2016-05-10 21:57:03,851 : INFO : PROGRESS: pass 2, at document #2100/5485
+2016-05-10 21:57:04,584 : INFO : optimized alpha [0.1015084122406011, 0.13524234410729191, 0.10715049596367422, 0.10176755439927149, 0.088288474445196177, 0.10135817908962606, 0.078431113333014321, 0.083127125741447455, 0.075686478905265336, 0.064869834448019012]
+2016-05-10 21:57:04,596 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:04,663 : INFO : topic #9 (0.065): 0.018*usair + 0.015*twa + 0.014*merger + 0.010*piedmont + 0.010*caesar + 0.010*court + 0.010*reuter + 0.009*share + 0.009*world + 0.009*airline
+2016-05-10 21:57:04,664 : INFO : topic #8 (0.076): 0.034*trade + 0.018*official + 0.014*japan + 0.013*country + 0.012*export + 0.011*market + 0.011*government + 0.011*state + 0.010*minister + 0.008*import
+2016-05-10 21:57:04,665 : INFO : topic #3 (0.102): 0.078*ct + 0.055*share + 0.050*reuter + 0.043*dividend + 0.042*april + 0.039*march + 0.038*stock + 0.029*record + 0.029*div + 0.026*inc
+2016-05-10 21:57:04,666 : INFO : topic #2 (0.107): 0.051*bank + 0.039*pct + 0.038*mln + 0.031*rate + 0.028*year + 0.025*billion + 0.018*profit + 0.015*stg + 0.014*market + 0.013*reuter
+2016-05-10 21:57:04,668 : INFO : topic #1 (0.135): 0.110*mln + 0.099*ct + 0.092*loss + 0.073*dlrs + 0.055*shr + 0.045*profit + 0.039*year + 0.037*net + 0.031*qtr + 0.029*rev
+2016-05-10 21:57:04,669 : INFO : topic diff=0.202014, rho=0.316228
+2016-05-10 21:57:04,770 : INFO : PROGRESS: pass 2, at document #2800/5485
+2016-05-10 21:57:05,486 : INFO : optimized alpha [0.10239263515254099, 0.14225021498972887, 0.10617943213475606, 0.10193786103692358, 0.086578019074508239, 0.10150073696499735, 0.076775535624816246, 0.084548782147331386, 0.07536103005222991, 0.063875507171851337]
+2016-05-10 21:57:05,500 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:05,567 : INFO : topic #9 (0.064): 0.018*usair + 0.016*twa + 0.012*merger + 0.012*court + 0.011*airline + 0.010*share + 0.009*caesar + 0.009*reuter + 0.009*world + 0.009*piedmont
+2016-05-10 21:57:05,568 : INFO : topic #8 (0.075): 0.034*trade + 0.017*official + 0.014*japan + 0.012*country + 0.011*government + 0.011*state + 0.011*import + 0.011*export + 0.010*market + 0.009*minister
+2016-05-10 21:57:05,570 : INFO : topic #0 (0.102): 0.050*dlrs + 0.035*company + 0.029*mln + 0.026*inc + 0.025*corp + 0.022*unit + 0.022*sale + 0.021*share + 0.020*reuter + 0.012*ltd
+2016-05-10 21:57:05,571 : INFO : topic #2 (0.106): 0.050*bank + 0.040*pct + 0.036*mln + 0.031*rate + 0.030*year + 0.026*billion + 0.018*profit + 0.016*stg + 0.014*market + 0.012*reuter
+2016-05-10 21:57:05,572 : INFO : topic #1 (0.142): 0.104*mln + 0.101*ct + 0.092*loss + 0.068*dlrs + 0.057*shr + 0.044*profit + 0.038*year + 0.036*net + 0.033*qtr + 0.029*rev
+2016-05-10 21:57:05,573 : INFO : topic diff=0.205324, rho=0.316228
+2016-05-10 21:57:05,677 : INFO : PROGRESS: pass 2, at document #3500/5485
+2016-05-10 21:57:06,427 : INFO : optimized alpha [0.10475371949955672, 0.14283452566855229, 0.10632729154428491, 0.10499536389055325, 0.086823983162692062, 0.10300053416989237, 0.076229928613529063, 0.086085949542571455, 0.076330423399084982, 0.064624451559285687]
+2016-05-10 21:57:06,440 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:06,511 : INFO : topic #9 (0.065): 0.017*usair + 0.015*court + 0.014*twa + 0.013*merger + 0.011*caesar + 0.010*airline + 0.010*world + 0.009*share + 0.009*reuter + 0.009*piedmont
+2016-05-10 21:57:06,513 : INFO : topic #6 (0.076): 0.076*oil + 0.033*price + 0.023*dlrs + 0.019*opec + 0.018*barrel + 0.017*mln + 0.016*bpd + 0.013*energy + 0.012*production + 0.011*saudi
+2016-05-10 21:57:06,514 : INFO : topic #3 (0.105): 0.082*ct + 0.054*reuter + 0.049*april + 0.048*dividend + 0.047*share + 0.035*march + 0.035*stock + 0.031*div + 0.029*record + 0.025*inc
+2016-05-10 21:57:06,515 : INFO : topic #2 (0.106): 0.050*bank + 0.040*pct + 0.037*mln + 0.031*year + 0.027*billion + 0.027*rate + 0.018*profit + 0.015*market + 0.014*stg + 0.012*reuter
+2016-05-10 21:57:06,517 : INFO : topic #1 (0.143): 0.107*mln + 0.097*ct + 0.094*loss + 0.070*dlrs + 0.056*shr + 0.045*profit + 0.038*year + 0.036*net + 0.032*qtr + 0.029*rev
+2016-05-10 21:57:06,518 : INFO : topic diff=0.184456, rho=0.316228
+2016-05-10 21:57:06,630 : INFO : PROGRESS: pass 2, at document #4200/5485
+2016-05-10 21:57:07,383 : INFO : optimized alpha [0.10665547975018186, 0.14452301761121772, 0.10873644278722029, 0.10619173338838228, 0.089244598006098644, 0.10348755965409577, 0.075832130451287422, 0.086508535186934452, 0.077881627320579516, 0.065149034766261729]
+2016-05-10 21:57:07,395 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:07,463 : INFO : topic #9 (0.065): 0.016*court + 0.014*usair + 0.014*merger + 0.012*twa + 0.009*share + 0.009*airline + 0.009*reuter + 0.008*piedmont + 0.008*group + 0.008*inc
+2016-05-10 21:57:07,464 : INFO : topic #6 (0.076): 0.079*oil + 0.033*price + 0.022*dlrs + 0.017*opec + 0.016*barrel + 0.016*mln + 0.015*baker + 0.015*bpd + 0.014*energy + 0.012*production
+2016-05-10 21:57:07,465 : INFO : topic #0 (0.107): 0.046*dlrs + 0.035*company + 0.028*mln + 0.026*corp + 0.026*inc + 0.023*unit + 0.022*share + 0.020*reuter + 0.019*sale + 0.012*acquisition
+2016-05-10 21:57:07,466 : INFO : topic #2 (0.109): 0.046*bank + 0.039*pct + 0.038*mln + 0.029*year + 0.028*billion + 0.027*rate + 0.019*profit + 0.016*stg + 0.016*market + 0.012*reuter
+2016-05-10 21:57:07,468 : INFO : topic #1 (0.145): 0.114*mln + 0.096*ct + 0.093*loss + 0.066*dlrs + 0.056*shr + 0.043*profit + 0.038*year + 0.035*net + 0.031*qtr + 0.028*reuter
+2016-05-10 21:57:07,469 : INFO : topic diff=0.179919, rho=0.316228
+2016-05-10 21:57:08,377 : INFO : PROGRESS: pass 2, at document #4900/5485
+2016-05-10 21:57:09,168 : INFO : optimized alpha [0.10979338901709883, 0.14620807291153085, 0.11325155993938893, 0.10460536812641445, 0.090543694723083934, 0.10678708086370028, 0.076337777642590698, 0.088195638521549866, 0.079816684954940695, 0.066001859901210908]
+2016-05-10 21:57:09,181 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:09,247 : INFO : topic #9 (0.066): 0.016*court + 0.014*merger + 0.011*airline + 0.011*cpc + 0.010*usair + 0.008*share + 0.008*twa + 0.008*reuter + 0.008*group + 0.007*exchange
+2016-05-10 21:57:09,248 : INFO : topic #6 (0.076): 0.076*oil + 0.035*price + 0.022*dlrs + 0.016*barrel + 0.015*baker + 0.015*mln + 0.014*petroleum + 0.013*energy + 0.013*production + 0.012*opec
+2016-05-10 21:57:09,249 : INFO : topic #0 (0.110): 0.046*dlrs + 0.032*company + 0.030*mln + 0.026*inc + 0.025*corp + 0.023*unit + 0.021*share + 0.020*reuter + 0.019*sale + 0.013*ltd
+2016-05-10 21:57:09,250 : INFO : topic #2 (0.113): 0.046*bank + 0.037*mln + 0.037*pct + 0.028*billion + 0.028*year + 0.026*rate + 0.018*profit + 0.017*market + 0.017*stg + 0.014*dollar
+2016-05-10 21:57:09,252 : INFO : topic #1 (0.146): 0.113*mln + 0.099*loss + 0.094*ct + 0.066*dlrs + 0.055*shr + 0.043*profit + 0.040*year + 0.035*net + 0.029*qtr + 0.028*rev
+2016-05-10 21:57:09,253 : INFO : topic diff=0.185040, rho=0.316228
+2016-05-10 21:57:11,143 : INFO : -7.505 per-word bound, 181.6 perplexity estimate based on a held-out corpus of 585 documents with 24930 words
+2016-05-10 21:57:11,143 : INFO : PROGRESS: pass 2, at document #5485/5485
+2016-05-10 21:57:11,806 : INFO : optimized alpha [0.11303595936968702, 0.14460838930925068, 0.11736583312421141, 0.10424301883646102, 0.09231582807857569, 0.11108436501113503, 0.077205128150321989, 0.090894110040345172, 0.080835074340275564, 0.06695979756423405]
+2016-05-10 21:57:11,818 : INFO : merging changes from 585 documents into a model of 5485 documents
+2016-05-10 21:57:11,886 : INFO : topic #9 (0.067): 0.015*court + 0.012*merger + 0.009*cpc + 0.008*airline + 0.008*reuter + 0.008*share + 0.008*group + 0.007*caesar + 0.007*usair + 0.007*exchange
+2016-05-10 21:57:11,888 : INFO : topic #6 (0.077): 0.071*oil + 0.031*price + 0.020*dlrs + 0.016*baker + 0.016*mln + 0.014*barrel + 0.014*petroleum + 0.014*bpd + 0.013*gas + 0.013*energy
+2016-05-10 21:57:11,889 : INFO : topic #0 (0.113): 0.047*dlrs + 0.032*company + 0.030*mln + 0.027*inc + 0.026*corp + 0.022*unit + 0.022*share + 0.021*reuter + 0.019*sale + 0.014*acquisition
+2016-05-10 21:57:11,890 : INFO : topic #2 (0.117): 0.051*bank + 0.043*pct + 0.037*rate + 0.035*mln + 0.025*year + 0.023*billion + 0.016*profit + 0.016*market + 0.015*stg + 0.013*reuter
+2016-05-10 21:57:11,891 : INFO : topic #1 (0.145): 0.111*mln + 0.103*loss + 0.095*ct + 0.067*dlrs + 0.055*shr + 0.040*profit + 0.040*year + 0.033*net + 0.029*rev + 0.029*qtr
+2016-05-10 21:57:11,892 : INFO : topic diff=0.158668, rho=0.316228
+2016-05-10 21:57:12,008 : INFO : PROGRESS: pass 3, at document #700/5485
+2016-05-10 21:57:12,748 : INFO : optimized alpha [0.11300292941230605, 0.14851748093825964, 0.11603640296604262, 0.10606761349676558, 0.089887109652813588, 0.10710981301449156, 0.077604863445313976, 0.090246125036229891, 0.078679372975557688, 0.063083703533591537]
+2016-05-10 21:57:12,761 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:12,835 : INFO : topic #9 (0.063): 0.016*usair + 0.014*twa + 0.013*court + 0.012*merger + 0.012*piedmont + 0.012*airline + 0.008*group + 0.008*reuter + 0.008*share + 0.007*cpc
+2016-05-10 21:57:12,836 : INFO : topic #6 (0.078): 0.068*oil + 0.036*price + 0.021*dlrs + 0.018*opec + 0.017*mln + 0.015*barrel + 0.012*production + 0.012*bpd + 0.012*energy + 0.011*gas
+2016-05-10 21:57:12,838 : INFO : topic #0 (0.113): 0.050*dlrs + 0.032*company + 0.031*mln + 0.028*inc + 0.026*corp + 0.022*unit + 0.022*share + 0.021*reuter + 0.018*sale + 0.013*cash
+2016-05-10 21:57:12,839 : INFO : topic #2 (0.116): 0.048*bank + 0.041*pct + 0.035*mln + 0.035*rate + 0.026*year + 0.024*billion + 0.017*profit + 0.015*market + 0.014*stg + 0.012*reuter
+2016-05-10 21:57:12,840 : INFO : topic #1 (0.149): 0.111*mln + 0.098*ct + 0.096*loss + 0.071*dlrs + 0.056*shr + 0.041*profit + 0.039*year + 0.036*net + 0.031*qtr + 0.030*rev
+2016-05-10 21:57:12,841 : INFO : topic diff=0.181681, rho=0.301511
+2016-05-10 21:57:12,957 : INFO : PROGRESS: pass 3, at document #1400/5485
+2016-05-10 21:57:13,735 : INFO : optimized alpha [0.11278243118630998, 0.14539741643371304, 0.11503396395842552, 0.10529070132111035, 0.089667993393430609, 0.10932359103831152, 0.078735410708705517, 0.08937964553211282, 0.079059873468096467, 0.066388273581015525]
+2016-05-10 21:57:13,747 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:13,812 : INFO : topic #9 (0.066): 0.022*usair + 0.019*twa + 0.015*merger + 0.013*piedmont + 0.010*airline + 0.009*court + 0.009*share + 0.009*world + 0.009*reuter + 0.009*group
+2016-05-10 21:57:13,813 : INFO : topic #6 (0.079): 0.068*oil + 0.038*price + 0.022*dlrs + 0.021*opec + 0.020*mln + 0.016*barrel + 0.015*bpd + 0.014*baker + 0.012*production + 0.011*energy
+2016-05-10 21:57:13,814 : INFO : topic #0 (0.113): 0.053*dlrs + 0.034*company + 0.032*mln + 0.029*inc + 0.025*corp + 0.023*share + 0.022*unit + 0.021*sale + 0.021*reuter + 0.013*acquisition
+2016-05-10 21:57:13,815 : INFO : topic #2 (0.115): 0.055*bank + 0.040*pct + 0.037*rate + 0.035*mln + 0.026*year + 0.025*billion + 0.016*profit + 0.015*market + 0.014*stg + 0.013*reuter
+2016-05-10 21:57:13,816 : INFO : topic #1 (0.145): 0.114*mln + 0.096*loss + 0.095*ct + 0.075*dlrs + 0.056*shr + 0.042*profit + 0.040*year + 0.036*net + 0.031*qtr + 0.028*rev
+2016-05-10 21:57:13,818 : INFO : topic diff=0.202506, rho=0.301511
+2016-05-10 21:57:13,923 : INFO : PROGRESS: pass 3, at document #2100/5485
+2016-05-10 21:57:14,619 : INFO : optimized alpha [0.11178916404423012, 0.14634183789732444, 0.1147069898897029, 0.10534764462153931, 0.090589316936935615, 0.10831364479499632, 0.078654615394945809, 0.089292163836910535, 0.079430122930838454, 0.06510556449566389]
+2016-05-10 21:57:14,632 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:14,700 : INFO : topic #9 (0.065): 0.018*usair + 0.016*twa + 0.014*merger + 0.011*court + 0.011*piedmont + 0.010*caesar + 0.010*world + 0.009*airline + 0.009*reuter + 0.008*share
+2016-05-10 21:57:14,701 : INFO : topic #6 (0.079): 0.070*oil + 0.038*price + 0.025*opec + 0.022*dlrs + 0.020*mln + 0.018*barrel + 0.017*bpd + 0.016*saudi + 0.012*production + 0.011*ecuador
+2016-05-10 21:57:14,702 : INFO : topic #0 (0.112): 0.052*dlrs + 0.033*company + 0.031*mln + 0.029*inc + 0.024*corp + 0.023*share + 0.021*sale + 0.021*unit + 0.020*reuter + 0.012*ltd
+2016-05-10 21:57:14,703 : INFO : topic #2 (0.115): 0.052*bank + 0.040*pct + 0.037*mln + 0.032*rate + 0.027*year + 0.026*billion + 0.018*profit + 0.015*stg + 0.015*market + 0.013*reuter
+2016-05-10 21:57:14,705 : INFO : topic #1 (0.146): 0.111*mln + 0.099*ct + 0.093*loss + 0.072*dlrs + 0.056*shr + 0.045*profit + 0.039*year + 0.038*net + 0.031*qtr + 0.029*rev
+2016-05-10 21:57:14,706 : INFO : topic diff=0.137953, rho=0.301511
+2016-05-10 21:57:14,808 : INFO : PROGRESS: pass 3, at document #2800/5485
+2016-05-10 21:57:15,479 : INFO : optimized alpha [0.11210707615997267, 0.1529564507039102, 0.11344708335341443, 0.1052846722493932, 0.088853465163934178, 0.10826095927799741, 0.07726789369299443, 0.090467557488840528, 0.079058731532090337, 0.064262770441608538]
+2016-05-10 21:57:15,490 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:15,556 : INFO : topic #9 (0.064): 0.018*usair + 0.017*twa + 0.013*court + 0.013*merger + 0.012*airline + 0.010*caesar + 0.010*world + 0.009*piedmont + 0.008*share + 0.008*reuter
+2016-05-10 21:57:15,557 : INFO : topic #6 (0.077): 0.078*oil + 0.037*price + 0.024*opec + 0.020*dlrs + 0.019*mln + 0.019*barrel + 0.015*bpd + 0.013*saudi + 0.013*production + 0.012*energy
+2016-05-10 21:57:15,558 : INFO : topic #0 (0.112): 0.049*dlrs + 0.034*company + 0.030*mln + 0.027*inc + 0.026*corp + 0.022*unit + 0.022*share + 0.021*sale + 0.020*reuter + 0.012*ltd
+2016-05-10 21:57:15,559 : INFO : topic #2 (0.113): 0.052*bank + 0.040*pct + 0.035*mln + 0.031*rate + 0.029*year + 0.026*billion + 0.018*profit + 0.015*stg + 0.014*market + 0.012*reuter
+2016-05-10 21:57:15,560 : INFO : topic #1 (0.153): 0.106*mln + 0.102*ct + 0.093*loss + 0.067*dlrs + 0.057*shr + 0.044*profit + 0.038*year + 0.036*net + 0.033*qtr + 0.029*rev
+2016-05-10 21:57:15,561 : INFO : topic diff=0.150720, rho=0.301511
+2016-05-10 21:57:16,453 : INFO : PROGRESS: pass 3, at document #3500/5485
+2016-05-10 21:57:17,194 : INFO : optimized alpha [0.1141657967683446, 0.1529811166615449, 0.11332854247195605, 0.10814942497603855, 0.089136717070721197, 0.10956700795493832, 0.077081151767891307, 0.091796821790079641, 0.080041038884351434, 0.064954804736197594]
+2016-05-10 21:57:17,207 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:17,273 : INFO : topic #9 (0.065): 0.017*usair + 0.016*court + 0.015*twa + 0.013*merger + 0.011*caesar + 0.011*airline + 0.010*world + 0.009*piedmont + 0.008*reuter + 0.008*share
+2016-05-10 21:57:17,274 : INFO : topic #6 (0.077): 0.079*oil + 0.034*price + 0.021*dlrs + 0.019*opec + 0.018*barrel + 0.017*mln + 0.016*bpd + 0.013*energy + 0.013*production + 0.011*saudi
+2016-05-10 21:57:17,275 : INFO : topic #2 (0.113): 0.052*bank + 0.040*pct + 0.036*mln + 0.029*year + 0.028*rate + 0.027*billion + 0.017*profit + 0.015*market + 0.014*stg + 0.012*reuter
+2016-05-10 21:57:17,276 : INFO : topic #0 (0.114): 0.046*dlrs + 0.033*company + 0.029*mln + 0.027*inc + 0.026*corp + 0.022*share + 0.022*unit + 0.021*reuter + 0.020*sale + 0.012*acquisition
+2016-05-10 21:57:17,277 : INFO : topic #1 (0.153): 0.107*mln + 0.097*ct + 0.094*loss + 0.069*dlrs + 0.057*shr + 0.045*profit + 0.038*year + 0.036*net + 0.032*qtr + 0.029*rev
+2016-05-10 21:57:17,278 : INFO : topic diff=0.131340, rho=0.301511
+2016-05-10 21:57:17,386 : INFO : PROGRESS: pass 3, at document #4200/5485
+2016-05-10 21:57:18,129 : INFO : optimized alpha [0.11568143855912365, 0.15416716623160842, 0.11542383577394812, 0.1093861761909409, 0.091299825137425378, 0.10999392023660327, 0.076933051340582717, 0.092106425961362856, 0.08151159556796396, 0.065602507885902397]
+2016-05-10 21:57:18,142 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:18,210 : INFO : topic #9 (0.066): 0.017*court + 0.015*usair + 0.014*merger + 0.012*twa + 0.010*airline + 0.008*piedmont + 0.008*share + 0.008*reuter + 0.008*caesar + 0.008*world
+2016-05-10 21:57:18,211 : INFO : topic #6 (0.077): 0.081*oil + 0.033*price + 0.020*dlrs + 0.017*opec + 0.016*barrel + 0.016*mln + 0.015*energy + 0.015*baker + 0.015*bpd + 0.013*production
+2016-05-10 21:57:18,212 : INFO : topic #2 (0.115): 0.049*bank + 0.039*pct + 0.037*mln + 0.029*billion + 0.028*year + 0.027*rate + 0.019*profit + 0.016*stg + 0.016*market + 0.012*reuter
+2016-05-10 21:57:18,213 : INFO : topic #0 (0.116): 0.045*dlrs + 0.034*company + 0.028*mln + 0.027*inc + 0.026*corp + 0.023*share + 0.022*unit + 0.020*reuter + 0.018*sale + 0.012*acquisition
+2016-05-10 21:57:18,214 : INFO : topic #1 (0.154): 0.114*mln + 0.097*ct + 0.094*loss + 0.066*dlrs + 0.056*shr + 0.043*profit + 0.038*year + 0.036*net + 0.031*qtr + 0.028*reuter
+2016-05-10 21:57:18,215 : INFO : topic diff=0.132428, rho=0.301511
+2016-05-10 21:57:18,334 : INFO : PROGRESS: pass 3, at document #4900/5485
+2016-05-10 21:57:19,124 : INFO : optimized alpha [0.11842729215010515, 0.15527402832532616, 0.11972539646328959, 0.10779167023232684, 0.092500912518531681, 0.11313675841237909, 0.077513201536923496, 0.093752840804580614, 0.08322027067699854, 0.066467017302831749]
+2016-05-10 21:57:19,135 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:19,203 : INFO : topic #9 (0.066): 0.017*court + 0.014*merger + 0.012*airline + 0.011*usair + 0.011*cpc + 0.009*twa + 0.008*reuter + 0.007*share + 0.007*group + 0.007*caesar
+2016-05-10 21:57:19,204 : INFO : topic #6 (0.078): 0.078*oil + 0.035*price + 0.019*dlrs + 0.016*barrel + 0.015*baker + 0.014*mln + 0.014*petroleum + 0.014*energy + 0.013*gas + 0.013*production
+2016-05-10 21:57:19,205 : INFO : topic #0 (0.118): 0.046*dlrs + 0.031*company + 0.030*mln + 0.026*inc + 0.026*corp + 0.023*unit + 0.023*share + 0.020*reuter + 0.018*sale + 0.013*ltd
+2016-05-10 21:57:19,206 : INFO : topic #2 (0.120): 0.048*bank + 0.037*pct + 0.037*mln + 0.029*billion + 0.027*year + 0.027*rate + 0.018*profit + 0.017*market + 0.017*stg + 0.014*dollar
+2016-05-10 21:57:19,207 : INFO : topic #1 (0.155): 0.114*mln + 0.099*loss + 0.094*ct + 0.065*dlrs + 0.055*shr + 0.044*profit + 0.040*year + 0.035*net + 0.029*qtr + 0.028*rev
+2016-05-10 21:57:19,209 : INFO : topic diff=0.139778, rho=0.301511
+2016-05-10 21:57:21,078 : INFO : -7.462 per-word bound, 176.3 perplexity estimate based on a held-out corpus of 585 documents with 24930 words
+2016-05-10 21:57:21,078 : INFO : PROGRESS: pass 3, at document #5485/5485
+2016-05-10 21:57:21,679 : INFO : optimized alpha [0.121338170517562, 0.15293172915712208, 0.12376765048388687, 0.10757038108246364, 0.09416222034940698, 0.11710115388566808, 0.078456626094120338, 0.096199620026107033, 0.084080872014075644, 0.067353793613093529]
+2016-05-10 21:57:21,691 : INFO : merging changes from 585 documents into a model of 5485 documents
+2016-05-10 21:57:21,756 : INFO : topic #9 (0.067): 0.016*court + 0.012*merger + 0.009*airline + 0.009*cpc + 0.008*usair + 0.008*caesar + 0.008*reuter + 0.007*group + 0.007*world + 0.007*share
+2016-05-10 21:57:21,757 : INFO : topic #6 (0.078): 0.072*oil + 0.032*price + 0.018*dlrs + 0.016*baker + 0.015*mln + 0.015*barrel + 0.014*petroleum + 0.014*gas + 0.014*bpd + 0.013*energy
+2016-05-10 21:57:21,758 : INFO : topic #0 (0.121): 0.046*dlrs + 0.031*company + 0.030*mln + 0.027*inc + 0.026*corp + 0.023*share + 0.022*unit + 0.021*reuter + 0.018*sale + 0.014*acquisition
+2016-05-10 21:57:21,759 : INFO : topic #2 (0.124): 0.053*bank + 0.043*pct + 0.037*rate + 0.035*mln + 0.024*year + 0.023*billion + 0.016*profit + 0.016*market + 0.015*stg + 0.013*reuter
+2016-05-10 21:57:21,760 : INFO : topic #1 (0.153): 0.112*mln + 0.104*loss + 0.095*ct + 0.066*dlrs + 0.055*shr + 0.040*profit + 0.039*year + 0.033*net + 0.029*rev + 0.029*qtr
+2016-05-10 21:57:21,761 : INFO : topic diff=0.122018, rho=0.301511
+2016-05-10 21:57:21,871 : INFO : PROGRESS: pass 4, at document #700/5485
+2016-05-10 21:57:22,595 : INFO : optimized alpha [0.1209087700528846, 0.15634173862223563, 0.12212338560808363, 0.10931669694707044, 0.091755692230870975, 0.11300100525241701, 0.078951549557208137, 0.095200657273219469, 0.081858900337617516, 0.063698240952656762]
+2016-05-10 21:57:22,607 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:22,674 : INFO : topic #9 (0.064): 0.016*usair + 0.014*twa + 0.014*court + 0.012*piedmont + 0.012*merger + 0.012*airline + 0.008*group + 0.007*world + 0.007*southern + 0.007*cpc
+2016-05-10 21:57:22,675 : INFO : topic #6 (0.079): 0.070*oil + 0.036*price + 0.020*dlrs + 0.018*opec + 0.017*mln + 0.016*barrel + 0.012*production + 0.012*gas + 0.012*energy + 0.012*bpd
+2016-05-10 21:57:22,676 : INFO : topic #0 (0.121): 0.049*dlrs + 0.032*company + 0.031*mln + 0.029*inc + 0.026*corp + 0.023*share + 0.022*unit + 0.021*reuter + 0.018*sale + 0.013*acquisition
+2016-05-10 21:57:22,677 : INFO : topic #2 (0.122): 0.049*bank + 0.041*pct + 0.035*rate + 0.034*mln + 0.025*year + 0.024*billion + 0.017*profit + 0.015*market + 0.014*stg + 0.012*reuter
+2016-05-10 21:57:22,678 : INFO : topic #1 (0.156): 0.112*mln + 0.098*ct + 0.097*loss + 0.070*dlrs + 0.056*shr + 0.041*profit + 0.039*year + 0.036*net + 0.031*qtr + 0.030*rev
+2016-05-10 21:57:22,680 : INFO : topic diff=0.152276, rho=0.288675
+2016-05-10 21:57:23,591 : INFO : PROGRESS: pass 4, at document #1400/5485
+2016-05-10 21:57:24,368 : INFO : optimized alpha [0.12051613032534284, 0.15286405121916716, 0.12115938994258796, 0.1085552173090682, 0.091705117513309356, 0.11530140348710492, 0.080054608384533626, 0.094196467028710651, 0.082151433957549383, 0.066947973235027922]
+2016-05-10 21:57:24,380 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:24,447 : INFO : topic #9 (0.067): 0.022*usair + 0.019*twa + 0.015*merger + 0.013*piedmont + 0.010*airline + 0.009*court + 0.009*world + 0.008*group + 0.008*reuter + 0.007*share
+2016-05-10 21:57:24,449 : INFO : topic #6 (0.080): 0.069*oil + 0.038*price + 0.021*opec + 0.020*dlrs + 0.019*mln + 0.016*barrel + 0.015*bpd + 0.014*baker + 0.012*production + 0.011*energy
+2016-05-10 21:57:24,450 : INFO : topic #0 (0.121): 0.051*dlrs + 0.033*company + 0.032*mln + 0.030*inc + 0.025*corp + 0.024*share + 0.022*unit + 0.021*reuter + 0.020*sale + 0.013*acquisition
+2016-05-10 21:57:24,451 : INFO : topic #2 (0.121): 0.056*bank + 0.040*pct + 0.037*rate + 0.035*mln + 0.026*year + 0.025*billion + 0.016*profit + 0.016*market + 0.014*stg + 0.013*reuter
+2016-05-10 21:57:24,453 : INFO : topic #1 (0.153): 0.115*mln + 0.097*loss + 0.095*ct + 0.075*dlrs + 0.056*shr + 0.042*profit + 0.040*year + 0.037*net + 0.031*qtr + 0.028*rev
+2016-05-10 21:57:24,454 : INFO : topic diff=0.174158, rho=0.288675
+2016-05-10 21:57:24,563 : INFO : PROGRESS: pass 4, at document #2100/5485
+2016-05-10 21:57:25,265 : INFO : optimized alpha [0.11942971193306345, 0.1533159960377207, 0.1205085972014802, 0.10841016848110333, 0.09255344801332259, 0.1140842659191966, 0.079980330820191237, 0.093968767182837115, 0.082558946677030939, 0.065768797632039439]
+2016-05-10 21:57:25,277 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:25,348 : INFO : topic #9 (0.066): 0.019*usair + 0.016*twa + 0.014*merger + 0.012*court + 0.011*piedmont + 0.010*caesar + 0.010*world + 0.010*airline + 0.008*reuter + 0.007*group
+2016-05-10 21:57:25,350 : INFO : topic #6 (0.080): 0.071*oil + 0.038*price + 0.024*opec + 0.021*dlrs + 0.019*mln + 0.018*barrel + 0.017*bpd + 0.015*saudi + 0.012*production + 0.011*energy
+2016-05-10 21:57:25,351 : INFO : topic #0 (0.119): 0.051*dlrs + 0.033*company + 0.031*mln + 0.030*inc + 0.025*corp + 0.024*share + 0.021*unit + 0.021*reuter + 0.021*sale + 0.012*acquisition
+2016-05-10 21:57:25,352 : INFO : topic #2 (0.121): 0.054*bank + 0.040*pct + 0.036*mln + 0.032*rate + 0.026*year + 0.026*billion + 0.017*profit + 0.015*stg + 0.015*market + 0.013*reuter
+2016-05-10 21:57:25,353 : INFO : topic #1 (0.153): 0.111*mln + 0.099*ct + 0.094*loss + 0.072*dlrs + 0.056*shr + 0.045*profit + 0.039*year + 0.038*net + 0.031*qtr + 0.029*rev
+2016-05-10 21:57:25,354 : INFO : topic diff=0.115492, rho=0.288675
+2016-05-10 21:57:25,462 : INFO : PROGRESS: pass 4, at document #2800/5485
+2016-05-10 21:57:26,167 : INFO : optimized alpha [0.11938235224124966, 0.15948252610538655, 0.11888828957703199, 0.10836770122539578, 0.09089023235658017, 0.11381373746598875, 0.078692226796431924, 0.095022255788296553, 0.08208321770935656, 0.065052689998024743]
+2016-05-10 21:57:26,179 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:26,246 : INFO : topic #9 (0.065): 0.019*usair + 0.017*twa + 0.013*court + 0.012*merger + 0.012*airline + 0.010*world + 0.010*caesar + 0.009*piedmont + 0.008*reuter + 0.007*venezuela
+2016-05-10 21:57:26,248 : INFO : topic #6 (0.079): 0.078*oil + 0.037*price + 0.024*opec + 0.019*dlrs + 0.019*barrel + 0.019*mln + 0.015*bpd + 0.013*production + 0.013*saudi + 0.012*gas
+2016-05-10 21:57:26,249 : INFO : topic #2 (0.119): 0.053*bank + 0.040*pct + 0.035*mln + 0.031*rate + 0.028*year + 0.026*billion + 0.018*profit + 0.015*stg + 0.015*market + 0.012*reuter
+2016-05-10 21:57:26,250 : INFO : topic #0 (0.119): 0.048*dlrs + 0.034*company + 0.030*mln + 0.027*inc + 0.026*corp + 0.023*share + 0.022*unit + 0.021*reuter + 0.021*sale + 0.012*acquisition
+2016-05-10 21:57:26,251 : INFO : topic #1 (0.159): 0.106*mln + 0.102*ct + 0.093*loss + 0.067*dlrs + 0.057*shr + 0.044*profit + 0.038*year + 0.037*net + 0.033*qtr + 0.029*rev
+2016-05-10 21:57:26,252 : INFO : topic diff=0.129481, rho=0.288675
+2016-05-10 21:57:26,359 : INFO : PROGRESS: pass 4, at document #3500/5485
+2016-05-10 21:57:27,093 : INFO : optimized alpha [0.12126287475881548, 0.15912808837940984, 0.11839130646408137, 0.11115607223266057, 0.091095082492185869, 0.11488732328938887, 0.078458212034645883, 0.096236937386629154, 0.082997589475110961, 0.06569836773541779]
+2016-05-10 21:57:27,106 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:27,174 : INFO : topic #9 (0.066): 0.018*usair + 0.016*court + 0.015*twa + 0.013*merger + 0.011*airline + 0.011*caesar + 0.010*world + 0.009*piedmont + 0.007*reuter + 0.007*share
+2016-05-10 21:57:27,175 : INFO : topic #6 (0.078): 0.080*oil + 0.034*price + 0.019*opec + 0.019*dlrs + 0.018*barrel + 0.017*mln + 0.016*bpd + 0.014*energy + 0.013*production + 0.012*gas
+2016-05-10 21:57:27,176 : INFO : topic #2 (0.118): 0.054*bank + 0.040*pct + 0.036*mln + 0.029*year + 0.028*rate + 0.028*billion + 0.017*profit + 0.015*market + 0.014*stg + 0.012*reuter
+2016-05-10 21:57:27,177 : INFO : topic #0 (0.121): 0.045*dlrs + 0.033*company + 0.030*mln + 0.028*inc + 0.026*corp + 0.023*share + 0.022*unit + 0.021*reuter + 0.019*sale + 0.012*acquisition
+2016-05-10 21:57:27,178 : INFO : topic #1 (0.159): 0.108*mln + 0.098*ct + 0.095*loss + 0.069*dlrs + 0.057*shr + 0.045*profit + 0.038*year + 0.036*net + 0.032*qtr + 0.029*rev
+2016-05-10 21:57:27,179 : INFO : topic diff=0.111480, rho=0.288675
+2016-05-10 21:57:27,288 : INFO : PROGRESS: pass 4, at document #4200/5485
+2016-05-10 21:57:28,021 : INFO : optimized alpha [0.12234809333427543, 0.15996080922466557, 0.1204601112459585, 0.11207248569196034, 0.093299784469378214, 0.11501773605237255, 0.078257957896425437, 0.096384948540314111, 0.084362406482608773, 0.066328528863095731]
+2016-05-10 21:57:28,033 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:28,101 : INFO : topic #9 (0.066): 0.017*court + 0.015*usair + 0.014*merger + 0.013*twa + 0.010*airline + 0.009*piedmont + 0.008*caesar + 0.008*world + 0.008*southern + 0.007*reuter
+2016-05-10 21:57:28,102 : INFO : topic #6 (0.078): 0.082*oil + 0.034*price + 0.019*dlrs + 0.017*opec + 0.016*barrel + 0.015*mln + 0.015*energy + 0.015*baker + 0.015*bpd + 0.013*production
+2016-05-10 21:57:28,103 : INFO : topic #2 (0.120): 0.050*bank + 0.039*pct + 0.036*mln + 0.029*billion + 0.028*rate + 0.027*year + 0.019*profit + 0.016*stg + 0.016*market + 0.012*reuter
+2016-05-10 21:57:28,104 : INFO : topic #0 (0.122): 0.044*dlrs + 0.034*company + 0.028*mln + 0.027*inc + 0.026*corp + 0.024*share + 0.022*unit + 0.021*reuter + 0.018*sale + 0.012*acquisition
+2016-05-10 21:57:28,106 : INFO : topic #1 (0.160): 0.115*mln + 0.097*ct + 0.095*loss + 0.066*dlrs + 0.056*shr + 0.044*profit + 0.038*year + 0.036*net + 0.031*qtr + 0.028*reuter
+2016-05-10 21:57:28,107 : INFO : topic diff=0.114021, rho=0.288675
+2016-05-10 21:57:29,009 : INFO : PROGRESS: pass 4, at document #4900/5485
+2016-05-10 21:57:29,782 : INFO : optimized alpha [0.124875908305736, 0.16061945542640985, 0.12451944567335634, 0.11037287214901083, 0.094626268254616452, 0.11811465304339011, 0.078870130475941505, 0.09786470771281143, 0.085848844706720023, 0.067223058944304456]
+2016-05-10 21:57:29,793 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:29,858 : INFO : topic #9 (0.067): 0.017*court + 0.014*merger + 0.012*airline + 0.011*usair + 0.010*cpc + 0.009*twa + 0.007*caesar + 0.007*reuter + 0.007*honeywell + 0.007*group
+2016-05-10 21:57:29,859 : INFO : topic #6 (0.079): 0.078*oil + 0.035*price + 0.018*dlrs + 0.016*barrel + 0.015*baker + 0.014*mln + 0.014*petroleum + 0.014*gas + 0.014*energy + 0.013*production
+2016-05-10 21:57:29,860 : INFO : topic #2 (0.125): 0.049*bank + 0.038*pct + 0.036*mln + 0.029*billion + 0.027*rate + 0.027*year + 0.018*profit + 0.017*market + 0.017*stg + 0.014*dollar
+2016-05-10 21:57:29,861 : INFO : topic #0 (0.125): 0.045*dlrs + 0.031*company + 0.030*mln + 0.027*inc + 0.026*corp + 0.023*share + 0.023*unit + 0.021*reuter + 0.018*sale + 0.013*ltd
+2016-05-10 21:57:29,862 : INFO : topic #1 (0.161): 0.114*mln + 0.099*loss + 0.095*ct + 0.065*dlrs + 0.055*shr + 0.044*profit + 0.039*year + 0.035*net + 0.029*qtr + 0.028*rev
+2016-05-10 21:57:29,863 : INFO : topic diff=0.121752, rho=0.288675
+2016-05-10 21:57:31,709 : INFO : -7.439 per-word bound, 173.5 perplexity estimate based on a held-out corpus of 585 documents with 24930 words
+2016-05-10 21:57:31,709 : INFO : PROGRESS: pass 4, at document #5485/5485
+2016-05-10 21:57:32,318 : INFO : optimized alpha [0.12757406444295952, 0.15794483748037361, 0.12871527582374445, 0.10995693902085257, 0.096206271327556783, 0.12202567717041257, 0.079846428425417684, 0.1001545610702578, 0.08662991174888221, 0.068083331117001267]
+2016-05-10 21:57:32,329 : INFO : merging changes from 585 documents into a model of 5485 documents
+2016-05-10 21:57:32,393 : INFO : topic #9 (0.068): 0.016*court + 0.012*merger + 0.009*airline + 0.009*cpc + 0.008*usair + 0.008*caesar + 0.007*world + 0.007*reuter + 0.007*twa + 0.007*group
+2016-05-10 21:57:32,395 : INFO : topic #6 (0.080): 0.073*oil + 0.032*price + 0.017*dlrs + 0.016*baker + 0.015*mln + 0.015*barrel + 0.015*gas + 0.014*petroleum + 0.014*bpd + 0.013*energy
+2016-05-10 21:57:32,396 : INFO : topic #0 (0.128): 0.045*dlrs + 0.031*company + 0.030*mln + 0.027*inc + 0.026*corp + 0.024*share + 0.022*unit + 0.021*reuter + 0.018*sale + 0.014*acquisition
+2016-05-10 21:57:32,397 : INFO : topic #2 (0.129): 0.054*bank + 0.043*pct + 0.037*rate + 0.034*mln + 0.024*year + 0.024*billion + 0.016*profit + 0.016*market + 0.015*stg + 0.013*reuter
+2016-05-10 21:57:32,398 : INFO : topic #1 (0.158): 0.112*mln + 0.104*loss + 0.095*ct + 0.066*dlrs + 0.055*shr + 0.041*profit + 0.039*year + 0.034*net + 0.029*qtr + 0.029*rev
+2016-05-10 21:57:32,399 : INFO : topic diff=0.107543, rho=0.288675
+2016-05-10 21:57:32,515 : INFO : PROGRESS: pass 5, at document #700/5485
+2016-05-10 21:57:33,258 : INFO : optimized alpha [0.1267274266347464, 0.16111398846097957, 0.12671527600397908, 0.11146116228245662, 0.093791112565629817, 0.11792948226115584, 0.080457021463103295, 0.099104477368116853, 0.084248794674219987, 0.064566739319447508]
+2016-05-10 21:57:33,270 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:33,342 : INFO : topic #9 (0.065): 0.016*usair + 0.014*court + 0.014*twa + 0.013*airline + 0.012*merger + 0.012*piedmont + 0.007*southern + 0.007*world + 0.007*cpc + 0.007*group
+2016-05-10 21:57:33,344 : INFO : topic #6 (0.080): 0.071*oil + 0.036*price + 0.019*dlrs + 0.018*opec + 0.017*mln + 0.016*barrel + 0.013*gas + 0.013*production + 0.012*energy + 0.012*bpd
+2016-05-10 21:57:33,345 : INFO : topic #2 (0.127): 0.051*bank + 0.041*pct + 0.035*rate + 0.034*mln + 0.025*year + 0.025*billion + 0.016*profit + 0.015*market + 0.014*stg + 0.013*reuter
+2016-05-10 21:57:33,346 : INFO : topic #0 (0.127): 0.048*dlrs + 0.032*company + 0.031*mln + 0.029*inc + 0.026*corp + 0.024*share + 0.022*unit + 0.022*reuter + 0.017*sale + 0.013*acquisition
+2016-05-10 21:57:33,347 : INFO : topic #1 (0.161): 0.112*mln + 0.098*ct + 0.097*loss + 0.070*dlrs + 0.056*shr + 0.042*profit + 0.039*year + 0.036*net + 0.031*qtr + 0.030*rev
+2016-05-10 21:57:33,349 : INFO : topic diff=0.137806, rho=0.277350
+2016-05-10 21:57:33,468 : INFO : PROGRESS: pass 5, at document #1400/5485
+2016-05-10 21:57:34,236 : INFO : optimized alpha [0.12621296371207424, 0.15764303069772892, 0.12545954812823798, 0.11072869558392541, 0.093872789258352782, 0.12010610247289107, 0.081470916696967294, 0.098083781441836826, 0.084406852360794524, 0.067748562664993878]
+2016-05-10 21:57:34,249 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:34,316 : INFO : topic #9 (0.068): 0.022*usair + 0.019*twa + 0.015*merger + 0.013*piedmont + 0.011*airline + 0.010*court + 0.009*world + 0.008*group + 0.007*caesar + 0.007*reuter
+2016-05-10 21:57:34,317 : INFO : topic #6 (0.081): 0.070*oil + 0.038*price + 0.021*opec + 0.020*dlrs + 0.019*mln + 0.016*barrel + 0.015*bpd + 0.014*baker + 0.012*production + 0.011*energy
+2016-05-10 21:57:34,319 : INFO : topic #2 (0.125): 0.057*bank + 0.040*pct + 0.037*rate + 0.034*mln + 0.026*billion + 0.025*year + 0.016*profit + 0.016*market + 0.014*stg + 0.013*reuter
+2016-05-10 21:57:34,319 : INFO : topic #0 (0.126): 0.050*dlrs + 0.033*company + 0.032*mln + 0.030*inc + 0.025*corp + 0.024*share + 0.022*unit + 0.021*reuter + 0.019*sale + 0.013*acquisition
+2016-05-10 21:57:34,321 : INFO : topic #1 (0.158): 0.115*mln + 0.097*loss + 0.095*ct + 0.074*dlrs + 0.056*shr + 0.043*profit + 0.039*year + 0.037*net + 0.031*qtr + 0.028*rev
+2016-05-10 21:57:34,322 : INFO : topic diff=0.160248, rho=0.277350
+2016-05-10 21:57:34,430 : INFO : PROGRESS: pass 5, at document #2100/5485
+2016-05-10 21:57:35,135 : INFO : optimized alpha [0.12492894206447383, 0.15813815086803398, 0.12470002661629428, 0.11063943190997924, 0.094652298693986628, 0.11853537701369037, 0.081462959345561345, 0.09776080645356354, 0.084693023644447696, 0.066547389319383532]
+2016-05-10 21:57:35,146 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:35,213 : INFO : topic #9 (0.067): 0.019*usair + 0.016*twa + 0.014*merger + 0.012*court + 0.011*piedmont + 0.011*caesar + 0.010*world + 0.010*airline + 0.007*reuter + 0.007*venezuela
+2016-05-10 21:57:35,214 : INFO : topic #6 (0.081): 0.071*oil + 0.038*price + 0.024*opec + 0.020*dlrs + 0.019*mln + 0.018*barrel + 0.017*bpd + 0.015*saudi + 0.012*production + 0.011*energy
+2016-05-10 21:57:35,216 : INFO : topic #2 (0.125): 0.055*bank + 0.040*pct + 0.035*mln + 0.033*rate + 0.026*billion + 0.026*year + 0.017*profit + 0.015*stg + 0.015*market + 0.013*reuter
+2016-05-10 21:57:35,217 : INFO : topic #0 (0.125): 0.050*dlrs + 0.033*company + 0.031*mln + 0.030*inc + 0.025*share + 0.025*corp + 0.021*reuter + 0.021*unit + 0.020*sale + 0.012*acquisition
+2016-05-10 21:57:35,218 : INFO : topic #1 (0.158): 0.112*mln + 0.099*ct + 0.094*loss + 0.071*dlrs + 0.056*shr + 0.046*profit + 0.039*year + 0.038*net + 0.031*qtr + 0.029*rev
+2016-05-10 21:57:35,219 : INFO : topic diff=0.104477, rho=0.277350
+2016-05-10 21:57:35,322 : INFO : PROGRESS: pass 5, at document #2800/5485
+2016-05-10 21:57:35,992 : INFO : optimized alpha [0.12445053024229609, 0.16406009362306262, 0.12287316309313856, 0.1105095747266604, 0.092953656906272289, 0.11808655168582376, 0.080191528850751329, 0.098782725675602118, 0.084171288399027197, 0.065845099911232718]
+2016-05-10 21:57:36,005 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:36,072 : INFO : topic #9 (0.066): 0.019*usair + 0.017*twa + 0.013*court + 0.013*merger + 0.012*airline + 0.010*caesar + 0.010*world + 0.009*piedmont + 0.007*reuter + 0.007*venezuela
+2016-05-10 21:57:36,073 : INFO : topic #6 (0.080): 0.079*oil + 0.037*price + 0.024*opec + 0.019*barrel + 0.019*dlrs + 0.018*mln + 0.015*bpd + 0.013*production + 0.013*saudi + 0.013*gas
+2016-05-10 21:57:36,075 : INFO : topic #2 (0.123): 0.054*bank + 0.040*pct + 0.035*mln + 0.032*rate + 0.028*year + 0.027*billion + 0.017*profit + 0.015*stg + 0.015*market + 0.012*reuter
+2016-05-10 21:57:36,076 : INFO : topic #0 (0.124): 0.047*dlrs + 0.034*company + 0.030*mln + 0.028*inc + 0.026*corp + 0.023*share + 0.022*unit + 0.021*reuter + 0.020*sale + 0.013*acquisition
+2016-05-10 21:57:36,077 : INFO : topic #1 (0.164): 0.107*mln + 0.102*ct + 0.094*loss + 0.067*dlrs + 0.057*shr + 0.044*profit + 0.037*year + 0.037*net + 0.033*qtr + 0.029*rev
+2016-05-10 21:57:36,078 : INFO : topic diff=0.118326, rho=0.277350
+2016-05-10 21:57:36,959 : INFO : PROGRESS: pass 5, at document #3500/5485
+2016-05-10 21:57:37,667 : INFO : optimized alpha [0.12607728219510478, 0.16345971280562854, 0.12212346798698458, 0.11312254039036372, 0.093096328690321264, 0.11910663566027919, 0.080012506444755271, 0.099966354212735448, 0.084993670685666337, 0.066513603737842653]
+2016-05-10 21:57:37,678 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:37,743 : INFO : topic #9 (0.067): 0.018*usair + 0.016*court + 0.015*twa + 0.013*merger + 0.012*airline + 0.011*caesar + 0.010*world + 0.009*piedmont + 0.007*reuter + 0.007*department
+2016-05-10 21:57:37,744 : INFO : topic #6 (0.080): 0.080*oil + 0.034*price + 0.019*opec + 0.019*dlrs + 0.018*barrel + 0.016*mln + 0.016*bpd + 0.014*energy + 0.013*production + 0.013*gas
+2016-05-10 21:57:37,745 : INFO : topic #2 (0.122): 0.055*bank + 0.040*pct + 0.035*mln + 0.028*rate + 0.028*year + 0.028*billion + 0.017*profit + 0.015*market + 0.014*stg + 0.012*reuter
+2016-05-10 21:57:37,746 : INFO : topic #0 (0.126): 0.044*dlrs + 0.032*company + 0.029*mln + 0.028*inc + 0.026*corp + 0.024*share + 0.022*unit + 0.021*reuter + 0.019*sale + 0.013*acquisition
+2016-05-10 21:57:37,747 : INFO : topic #1 (0.163): 0.108*mln + 0.098*ct + 0.095*loss + 0.069*dlrs + 0.057*shr + 0.045*profit + 0.037*year + 0.036*net + 0.032*qtr + 0.029*rev
+2016-05-10 21:57:37,748 : INFO : topic diff=0.101504, rho=0.277350
+2016-05-10 21:57:37,855 : INFO : PROGRESS: pass 5, at document #4200/5485
+2016-05-10 21:57:38,569 : INFO : optimized alpha [0.12705249408314728, 0.16408625802187266, 0.12412774314324074, 0.11394745084177121, 0.095233294006880881, 0.11901187862098563, 0.079730304476197472, 0.099947971812405487, 0.086355355194884881, 0.067116211636772685]
+2016-05-10 21:57:38,581 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:38,646 : INFO : topic #9 (0.067): 0.017*court + 0.016*usair + 0.014*merger + 0.013*twa + 0.011*airline + 0.009*piedmont + 0.008*caesar + 0.008*world + 0.008*southern + 0.007*reuter
+2016-05-10 21:57:38,647 : INFO : topic #6 (0.080): 0.082*oil + 0.034*price + 0.018*dlrs + 0.017*opec + 0.016*barrel + 0.015*mln + 0.015*energy + 0.015*bpd + 0.015*baker + 0.013*production
+2016-05-10 21:57:38,648 : INFO : topic #2 (0.124): 0.051*bank + 0.039*pct + 0.036*mln + 0.029*billion + 0.028*rate + 0.027*year + 0.018*profit + 0.016*stg + 0.016*market + 0.012*reuter
+2016-05-10 21:57:38,649 : INFO : topic #0 (0.127): 0.044*dlrs + 0.034*company + 0.028*mln + 0.028*inc + 0.026*corp + 0.024*share + 0.022*unit + 0.021*reuter + 0.018*sale + 0.013*acquisition
+2016-05-10 21:57:38,651 : INFO : topic #1 (0.164): 0.115*mln + 0.097*ct + 0.095*loss + 0.066*dlrs + 0.056*shr + 0.044*profit + 0.038*year + 0.036*net + 0.031*qtr + 0.028*reuter
+2016-05-10 21:57:38,652 : INFO : topic diff=0.103963, rho=0.277350
+2016-05-10 21:57:38,766 : INFO : PROGRESS: pass 5, at document #4900/5485
+2016-05-10 21:57:39,605 : INFO : optimized alpha [0.1291516250532575, 0.16449385050235663, 0.12781537503525919, 0.11220292313620427, 0.09651917716841929, 0.12198294289080566, 0.080347876900461926, 0.10134629755241378, 0.087731451156762924, 0.067993816194413748]
+2016-05-10 21:57:39,618 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:39,682 : INFO : topic #9 (0.068): 0.017*court + 0.014*merger + 0.013*airline + 0.012*usair + 0.010*cpc + 0.010*twa + 0.007*caesar + 0.007*honeywell + 0.007*world + 0.007*reuter
+2016-05-10 21:57:39,684 : INFO : topic #6 (0.080): 0.078*oil + 0.035*price + 0.018*dlrs + 0.016*barrel + 0.014*baker + 0.014*gas + 0.014*mln + 0.014*petroleum + 0.014*energy + 0.013*opec
+2016-05-10 21:57:39,685 : INFO : topic #2 (0.128): 0.050*bank + 0.038*pct + 0.035*mln + 0.029*billion + 0.027*rate + 0.026*year + 0.017*market + 0.017*profit + 0.017*stg + 0.014*dollar
+2016-05-10 21:57:39,686 : INFO : topic #0 (0.129): 0.044*dlrs + 0.031*company + 0.030*mln + 0.027*inc + 0.026*corp + 0.024*share + 0.023*unit + 0.021*reuter + 0.018*sale + 0.013*ltd
+2016-05-10 21:57:39,687 : INFO : topic #1 (0.164): 0.114*mln + 0.099*loss + 0.095*ct + 0.065*dlrs + 0.055*shr + 0.044*profit + 0.039*year + 0.036*net + 0.029*qtr + 0.028*rev
+2016-05-10 21:57:39,688 : INFO : topic diff=0.112332, rho=0.277350
+2016-05-10 21:57:41,523 : INFO : -7.423 per-word bound, 171.6 perplexity estimate based on a held-out corpus of 585 documents with 24930 words
+2016-05-10 21:57:41,525 : INFO : PROGRESS: pass 5, at document #5485/5485
+2016-05-10 21:57:42,142 : INFO : optimized alpha [0.13164815116261866, 0.16171752643410794, 0.13204748667568819, 0.11161261444510229, 0.098080826716711728, 0.12575532407239554, 0.081292154475184383, 0.10343723160932571, 0.088381263642695052, 0.068817464138548459]
+2016-05-10 21:57:42,153 : INFO : merging changes from 585 documents into a model of 5485 documents
+2016-05-10 21:57:42,226 : INFO : topic #9 (0.069): 0.016*court + 0.012*merger + 0.010*airline + 0.009*cpc + 0.009*usair + 0.008*caesar + 0.007*twa + 0.007*world + 0.007*reuter + 0.006*group
+2016-05-10 21:57:42,227 : INFO : topic #6 (0.081): 0.073*oil + 0.032*price + 0.017*dlrs + 0.016*baker + 0.015*mln + 0.015*gas + 0.015*barrel + 0.014*petroleum + 0.014*bpd + 0.013*energy
+2016-05-10 21:57:42,228 : INFO : topic #0 (0.132): 0.045*dlrs + 0.031*company + 0.030*mln + 0.028*inc + 0.026*corp + 0.024*share + 0.022*unit + 0.022*reuter + 0.018*sale + 0.014*acquisition
+2016-05-10 21:57:42,229 : INFO : topic #2 (0.132): 0.055*bank + 0.043*pct + 0.037*rate + 0.034*mln + 0.024*billion + 0.024*year + 0.016*market + 0.016*profit + 0.015*stg + 0.013*reuter
+2016-05-10 21:57:42,230 : INFO : topic #1 (0.162): 0.112*mln + 0.104*loss + 0.095*ct + 0.066*dlrs + 0.055*shr + 0.041*profit + 0.039*year + 0.034*net + 0.029*qtr + 0.029*rev
+2016-05-10 21:57:42,231 : INFO : topic diff=0.099086, rho=0.277350
+2016-05-10 21:57:42,341 : INFO : PROGRESS: pass 6, at document #700/5485
+2016-05-10 21:57:43,068 : INFO : optimized alpha [0.13053448378122856, 0.16466783165946397, 0.13006097088422042, 0.11304831927955225, 0.09558626847837158, 0.1217032042489329, 0.081845338338659243, 0.10234271210286644, 0.086003009098192057, 0.065383399907931558]
+2016-05-10 21:57:43,081 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:43,148 : INFO : topic #9 (0.065): 0.016*usair + 0.014*court + 0.014*twa + 0.013*airline + 0.013*merger + 0.012*piedmont + 0.008*southern + 0.007*world + 0.007*cpc + 0.007*group
+2016-05-10 21:57:43,149 : INFO : topic #6 (0.082): 0.071*oil + 0.036*price + 0.018*dlrs + 0.018*opec + 0.017*mln + 0.016*barrel + 0.013*gas + 0.013*production + 0.012*energy + 0.012*bpd
+2016-05-10 21:57:43,150 : INFO : topic #2 (0.130): 0.052*bank + 0.041*pct + 0.035*rate + 0.033*mln + 0.025*billion + 0.025*year + 0.016*profit + 0.016*market + 0.014*stg + 0.013*reuter
+2016-05-10 21:57:43,151 : INFO : topic #0 (0.131): 0.047*dlrs + 0.032*company + 0.031*mln + 0.029*inc + 0.026*corp + 0.024*share + 0.022*unit + 0.022*reuter + 0.017*sale + 0.013*acquisition
+2016-05-10 21:57:43,152 : INFO : topic #1 (0.165): 0.112*mln + 0.098*ct + 0.098*loss + 0.070*dlrs + 0.056*shr + 0.042*profit + 0.039*year + 0.036*net + 0.031*qtr + 0.030*rev
+2016-05-10 21:57:43,153 : INFO : topic diff=0.128363, rho=0.267261
+2016-05-10 21:57:44,062 : INFO : PROGRESS: pass 6, at document #1400/5485
+2016-05-10 21:57:44,801 : INFO : optimized alpha [0.12988807639014072, 0.16103824165835776, 0.12866784689786834, 0.11222170546275868, 0.095660387679924089, 0.12359973866107725, 0.082819348585750865, 0.10126247816716454, 0.086082225233232015, 0.068417673512322252]
+2016-05-10 21:57:44,812 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:44,880 : INFO : topic #9 (0.068): 0.023*usair + 0.019*twa + 0.015*merger + 0.013*piedmont + 0.011*airline + 0.010*court + 0.009*world + 0.008*caesar + 0.007*group + 0.007*dome
+2016-05-10 21:57:44,881 : INFO : topic #6 (0.083): 0.070*oil + 0.038*price + 0.021*opec + 0.019*dlrs + 0.019*mln + 0.016*barrel + 0.015*bpd + 0.014*baker + 0.012*production + 0.012*gas
+2016-05-10 21:57:44,883 : INFO : topic #2 (0.129): 0.058*bank + 0.040*pct + 0.037*rate + 0.034*mln + 0.026*billion + 0.025*year + 0.016*market + 0.016*profit + 0.014*stg + 0.013*reuter
+2016-05-10 21:57:44,884 : INFO : topic #0 (0.130): 0.049*dlrs + 0.033*company + 0.032*mln + 0.031*inc + 0.025*corp + 0.025*share + 0.022*unit + 0.022*reuter + 0.019*sale + 0.013*acquisition
+2016-05-10 21:57:44,885 : INFO : topic #1 (0.161): 0.115*mln + 0.097*loss + 0.095*ct + 0.074*dlrs + 0.056*shr + 0.043*profit + 0.039*year + 0.037*net + 0.031*qtr + 0.028*rev
+2016-05-10 21:57:44,886 : INFO : topic diff=0.151026, rho=0.267261
+2016-05-10 21:57:44,997 : INFO : PROGRESS: pass 6, at document #2100/5485
+2016-05-10 21:57:45,683 : INFO : optimized alpha [0.12842950578334886, 0.1615400147974955, 0.12777895200482506, 0.11204402171807079, 0.096377410855774837, 0.12213735454623434, 0.082770291470334503, 0.10092549167347087, 0.086403410480437717, 0.067267834419361114]
+2016-05-10 21:57:45,694 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:45,759 : INFO : topic #9 (0.067): 0.019*usair + 0.016*twa + 0.015*merger + 0.012*court + 0.011*piedmont + 0.011*caesar + 0.010*airline + 0.010*world + 0.007*reuter + 0.007*venezuela
+2016-05-10 21:57:45,761 : INFO : topic #6 (0.083): 0.072*oil + 0.038*price + 0.024*opec + 0.020*dlrs + 0.019*mln + 0.018*barrel + 0.017*bpd + 0.015*saudi + 0.012*production + 0.012*gas
+2016-05-10 21:57:45,762 : INFO : topic #2 (0.128): 0.056*bank + 0.040*pct + 0.035*mln + 0.033*rate + 0.026*billion + 0.026*year + 0.017*profit + 0.015*stg + 0.015*market + 0.013*reuter
+2016-05-10 21:57:45,763 : INFO : topic #0 (0.128): 0.049*dlrs + 0.032*company + 0.031*mln + 0.030*inc + 0.025*share + 0.025*corp + 0.021*reuter + 0.021*unit + 0.020*sale + 0.013*acquisition
+2016-05-10 21:57:45,764 : INFO : topic #1 (0.162): 0.112*mln + 0.099*ct + 0.095*loss + 0.071*dlrs + 0.056*shr + 0.046*profit + 0.039*year + 0.038*net + 0.031*qtr + 0.029*rev
+2016-05-10 21:57:45,765 : INFO : topic diff=0.097105, rho=0.267261
+2016-05-10 21:57:45,866 : INFO : PROGRESS: pass 6, at document #2800/5485
+2016-05-10 21:57:46,523 : INFO : optimized alpha [0.12779422712855337, 0.16727490906415476, 0.12582567488817317, 0.11194108765955431, 0.094621862667360723, 0.12152049215446528, 0.081476618099360007, 0.10173644904457659, 0.085820136383577619, 0.066570699967123684]
+2016-05-10 21:57:46,535 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:46,600 : INFO : topic #9 (0.067): 0.019*usair + 0.017*twa + 0.014*court + 0.013*merger + 0.012*airline + 0.010*caesar + 0.010*world + 0.010*piedmont + 0.007*department + 0.007*venezuela
+2016-05-10 21:57:46,602 : INFO : topic #6 (0.081): 0.079*oil + 0.037*price + 0.023*opec + 0.019*barrel + 0.018*dlrs + 0.018*mln + 0.015*bpd + 0.013*gas + 0.013*production + 0.013*saudi
+2016-05-10 21:57:46,603 : INFO : topic #2 (0.126): 0.056*bank + 0.040*pct + 0.034*mln + 0.032*rate + 0.027*year + 0.027*billion + 0.017*profit + 0.015*stg + 0.015*market + 0.012*reuter
+2016-05-10 21:57:46,604 : INFO : topic #0 (0.128): 0.046*dlrs + 0.033*company + 0.030*mln + 0.028*inc + 0.026*corp + 0.024*share + 0.022*unit + 0.021*reuter + 0.020*sale + 0.013*acquisition
+2016-05-10 21:57:46,605 : INFO : topic #1 (0.167): 0.107*mln + 0.101*ct + 0.094*loss + 0.067*dlrs + 0.057*shr + 0.044*profit + 0.037*year + 0.037*net + 0.032*qtr + 0.029*rev
+2016-05-10 21:57:46,606 : INFO : topic diff=0.110830, rho=0.267261
+2016-05-10 21:57:46,707 : INFO : PROGRESS: pass 6, at document #3500/5485
+2016-05-10 21:57:47,395 : INFO : optimized alpha [0.12934196859057312, 0.16650797647350887, 0.12490450933265967, 0.11448354752443302, 0.094645401274706262, 0.12235666347357717, 0.08122574506063869, 0.10281875112472123, 0.086556381728410861, 0.067232230168670748]
+2016-05-10 21:57:47,407 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:47,472 : INFO : topic #9 (0.067): 0.018*usair + 0.016*court + 0.015*twa + 0.013*merger + 0.012*airline + 0.011*caesar + 0.010*world + 0.010*piedmont + 0.007*department + 0.007*reuter
+2016-05-10 21:57:47,473 : INFO : topic #6 (0.081): 0.080*oil + 0.034*price + 0.020*opec + 0.019*dlrs + 0.018*barrel + 0.016*mln + 0.016*bpd + 0.014*energy + 0.013*production + 0.013*gas
+2016-05-10 21:57:47,474 : INFO : topic #2 (0.125): 0.056*bank + 0.040*pct + 0.034*mln + 0.029*rate + 0.028*billion + 0.028*year + 0.017*profit + 0.016*market + 0.014*stg + 0.012*reuter
+2016-05-10 21:57:47,476 : INFO : topic #0 (0.129): 0.044*dlrs + 0.032*company + 0.029*mln + 0.029*inc + 0.026*corp + 0.024*share + 0.022*unit + 0.022*reuter + 0.018*sale + 0.013*acquisition
+2016-05-10 21:57:47,477 : INFO : topic #1 (0.167): 0.109*mln + 0.098*ct + 0.095*loss + 0.069*dlrs + 0.057*shr + 0.045*profit + 0.037*year + 0.036*net + 0.032*qtr + 0.029*rev
+2016-05-10 21:57:47,478 : INFO : topic diff=0.094741, rho=0.267261
+2016-05-10 21:57:47,585 : INFO : PROGRESS: pass 6, at document #4200/5485
+2016-05-10 21:57:48,315 : INFO : optimized alpha [0.1301067024869125, 0.16689839831590875, 0.12690679446123029, 0.11519245142871333, 0.096668995851753411, 0.12205691346367421, 0.080938068623636963, 0.10272069444811034, 0.087873009386903317, 0.067801752039491667]
+2016-05-10 21:57:48,326 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:48,392 : INFO : topic #9 (0.068): 0.017*court + 0.016*usair + 0.014*merger + 0.013*twa + 0.011*airline + 0.009*piedmont + 0.008*caesar + 0.008*world + 0.008*southern + 0.006*department
+2016-05-10 21:57:48,393 : INFO : topic #6 (0.081): 0.082*oil + 0.034*price + 0.018*dlrs + 0.017*opec + 0.016*barrel + 0.015*mln + 0.015*energy + 0.015*bpd + 0.014*baker + 0.013*gas
+2016-05-10 21:57:48,394 : INFO : topic #2 (0.127): 0.052*bank + 0.039*pct + 0.035*mln + 0.029*billion + 0.028*rate + 0.026*year + 0.018*profit + 0.016*market + 0.016*stg + 0.012*reuter
+2016-05-10 21:57:48,395 : INFO : topic #0 (0.130): 0.043*dlrs + 0.034*company + 0.028*mln + 0.028*inc + 0.026*corp + 0.024*share + 0.022*unit + 0.021*reuter + 0.017*sale + 0.013*acquisition
+2016-05-10 21:57:48,396 : INFO : topic #1 (0.167): 0.115*mln + 0.097*ct + 0.095*loss + 0.066*dlrs + 0.056*shr + 0.044*profit + 0.038*year + 0.036*net + 0.031*qtr + 0.028*reuter
+2016-05-10 21:57:48,397 : INFO : topic diff=0.097032, rho=0.267261
+2016-05-10 21:57:49,301 : INFO : PROGRESS: pass 6, at document #4900/5485
+2016-05-10 21:57:50,048 : INFO : optimized alpha [0.13208567029871154, 0.16714007083733379, 0.13046801879504144, 0.11340908887838627, 0.097893166452672098, 0.124771675743355, 0.081464310741642093, 0.10391436835972435, 0.089156282915363622, 0.068586500333901096]
+2016-05-10 21:57:50,059 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:50,125 : INFO : topic #9 (0.069): 0.017*court + 0.014*merger + 0.013*airline + 0.012*usair + 0.010*cpc + 0.010*twa + 0.007*caesar + 0.007*world + 0.007*honeywell + 0.007*piedmont
+2016-05-10 21:57:50,126 : INFO : topic #6 (0.081): 0.078*oil + 0.035*price + 0.018*dlrs + 0.016*barrel + 0.015*gas + 0.014*baker + 0.014*mln + 0.014*petroleum + 0.014*energy + 0.014*opec
+2016-05-10 21:57:50,127 : INFO : topic #2 (0.130): 0.051*bank + 0.038*pct + 0.035*mln + 0.029*billion + 0.028*rate + 0.026*year + 0.017*market + 0.017*stg + 0.017*profit + 0.014*dollar
+2016-05-10 21:57:50,128 : INFO : topic #0 (0.132): 0.044*dlrs + 0.031*company + 0.030*mln + 0.027*inc + 0.026*corp + 0.024*share + 0.023*unit + 0.021*reuter + 0.018*sale + 0.013*acquisition
+2016-05-10 21:57:50,129 : INFO : topic #1 (0.167): 0.114*mln + 0.099*loss + 0.095*ct + 0.065*dlrs + 0.055*shr + 0.044*profit + 0.039*year + 0.036*net + 0.029*qtr + 0.028*rev
+2016-05-10 21:57:50,130 : INFO : topic diff=0.105538, rho=0.267261
+2016-05-10 21:57:52,063 : INFO : -7.411 per-word bound, 170.2 perplexity estimate based on a held-out corpus of 585 documents with 24930 words
+2016-05-10 21:57:52,063 : INFO : PROGRESS: pass 6, at document #5485/5485
+2016-05-10 21:57:52,648 : INFO : optimized alpha [0.13451309956993751, 0.16436347693334766, 0.13479536864391636, 0.11300993987254115, 0.09926956911077052, 0.12824240194620704, 0.082353546680427658, 0.10590369629696639, 0.089739491460392048, 0.069377268926759827]
+2016-05-10 21:57:52,660 : INFO : merging changes from 585 documents into a model of 5485 documents
+2016-05-10 21:57:52,725 : INFO : topic #9 (0.069): 0.016*court + 0.012*merger + 0.010*airline + 0.009*usair + 0.009*cpc + 0.008*caesar + 0.008*twa + 0.007*world + 0.006*southern + 0.006*reuter
+2016-05-10 21:57:52,726 : INFO : topic #6 (0.082): 0.074*oil + 0.032*price + 0.017*dlrs + 0.016*baker + 0.015*mln + 0.015*gas + 0.015*barrel + 0.014*petroleum + 0.014*bpd + 0.013*energy
+2016-05-10 21:57:52,727 : INFO : topic #0 (0.135): 0.044*dlrs + 0.031*company + 0.030*mln + 0.028*inc + 0.026*corp + 0.024*share + 0.022*unit + 0.022*reuter + 0.017*sale + 0.014*acquisition
+2016-05-10 21:57:52,728 : INFO : topic #2 (0.135): 0.056*bank + 0.043*pct + 0.037*rate + 0.033*mln + 0.024*billion + 0.023*year + 0.016*market + 0.016*profit + 0.015*stg + 0.013*reuter
+2016-05-10 21:57:52,730 : INFO : topic #1 (0.164): 0.113*mln + 0.103*loss + 0.095*ct + 0.066*dlrs + 0.055*shr + 0.041*profit + 0.039*year + 0.034*net + 0.029*qtr + 0.029*rev
+2016-05-10 21:57:52,731 : INFO : topic diff=0.092841, rho=0.267261
+2016-05-10 21:57:52,839 : INFO : PROGRESS: pass 7, at document #700/5485
+2016-05-10 21:57:53,539 : INFO : optimized alpha [0.13323791842828075, 0.16713816144282331, 0.13270229644953901, 0.1144061552981904, 0.096851855365721051, 0.12431773571135106, 0.082890437709769574, 0.1047655186098061, 0.087316734337228377, 0.066023937628446633]
+2016-05-10 21:57:53,552 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:53,617 : INFO : topic #9 (0.066): 0.016*usair + 0.015*court + 0.014*twa + 0.013*airline + 0.013*merger + 0.012*piedmont + 0.008*world + 0.008*southern + 0.007*cpc + 0.007*caesar
+2016-05-10 21:57:53,618 : INFO : topic #6 (0.083): 0.071*oil + 0.036*price + 0.018*dlrs + 0.018*opec + 0.017*mln + 0.016*barrel + 0.014*gas + 0.013*production + 0.012*energy + 0.012*bpd
+2016-05-10 21:57:53,619 : INFO : topic #2 (0.133): 0.053*bank + 0.041*pct + 0.035*rate + 0.033*mln + 0.025*billion + 0.024*year + 0.016*profit + 0.016*market + 0.014*stg + 0.013*reuter
+2016-05-10 21:57:53,620 : INFO : topic #0 (0.133): 0.047*dlrs + 0.032*company + 0.031*mln + 0.029*inc + 0.026*corp + 0.024*share + 0.022*unit + 0.022*reuter + 0.017*sale + 0.013*acquisition
+2016-05-10 21:57:53,621 : INFO : topic #1 (0.167): 0.112*mln + 0.098*ct + 0.098*loss + 0.070*dlrs + 0.056*shr + 0.042*profit + 0.039*year + 0.036*net + 0.031*qtr + 0.029*rev
+2016-05-10 21:57:53,623 : INFO : topic diff=0.121331, rho=0.258199
+2016-05-10 21:57:53,736 : INFO : PROGRESS: pass 7, at document #1400/5485
+2016-05-10 21:57:54,508 : INFO : optimized alpha [0.13255635869565768, 0.16349579941209771, 0.131372326774821, 0.11354218798223006, 0.096910162959910284, 0.12634480881546967, 0.083813401009285304, 0.10360915222601107, 0.087371442469848223, 0.068969709328998346]
+2016-05-10 21:57:54,521 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:54,586 : INFO : topic #9 (0.069): 0.023*usair + 0.019*twa + 0.016*merger + 0.013*piedmont + 0.011*airline + 0.010*court + 0.009*world + 0.008*caesar + 0.007*dome + 0.007*group
+2016-05-10 21:57:54,587 : INFO : topic #6 (0.084): 0.071*oil + 0.038*price + 0.021*opec + 0.019*dlrs + 0.019*mln + 0.016*barrel + 0.015*bpd + 0.013*baker + 0.013*production + 0.012*gas
+2016-05-10 21:57:54,588 : INFO : topic #2 (0.131): 0.059*bank + 0.040*pct + 0.037*rate + 0.033*mln + 0.026*billion + 0.025*year + 0.016*market + 0.015*profit + 0.014*stg + 0.013*reuter
+2016-05-10 21:57:54,589 : INFO : topic #0 (0.133): 0.049*dlrs + 0.032*company + 0.032*mln + 0.031*inc + 0.025*corp + 0.025*share + 0.022*unit + 0.022*reuter + 0.019*sale + 0.013*acquisition
+2016-05-10 21:57:54,590 : INFO : topic #1 (0.163): 0.115*mln + 0.097*loss + 0.095*ct + 0.073*dlrs + 0.056*shr + 0.043*profit + 0.039*year + 0.037*net + 0.031*qtr + 0.028*rev
+2016-05-10 21:57:54,591 : INFO : topic diff=0.143927, rho=0.258199
+2016-05-10 21:57:54,695 : INFO : PROGRESS: pass 7, at document #2100/5485
+2016-05-10 21:57:55,365 : INFO : optimized alpha [0.13091415387795974, 0.1639585677990324, 0.13027044684370576, 0.11330760386281435, 0.097553092659687479, 0.12486992732839083, 0.08370127200415188, 0.10331339541014128, 0.087635662136839057, 0.067840195793138838]
+2016-05-10 21:57:55,376 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:55,441 : INFO : topic #9 (0.068): 0.019*usair + 0.017*twa + 0.015*merger + 0.012*court + 0.011*piedmont + 0.011*caesar + 0.010*airline + 0.010*world + 0.007*venezuela + 0.007*department
+2016-05-10 21:57:55,442 : INFO : topic #6 (0.084): 0.072*oil + 0.038*price + 0.024*opec + 0.020*dlrs + 0.019*mln + 0.018*barrel + 0.017*bpd + 0.015*saudi + 0.012*production + 0.012*gas
+2016-05-10 21:57:55,443 : INFO : topic #2 (0.130): 0.057*bank + 0.040*pct + 0.034*mln + 0.033*rate + 0.027*billion + 0.025*year + 0.017*profit + 0.015*market + 0.015*stg + 0.013*reuter
+2016-05-10 21:57:55,444 : INFO : topic #0 (0.131): 0.049*dlrs + 0.032*company + 0.031*mln + 0.030*inc + 0.025*share + 0.025*corp + 0.022*reuter + 0.021*unit + 0.019*sale + 0.013*acquisition
+2016-05-10 21:57:55,445 : INFO : topic #1 (0.164): 0.112*mln + 0.099*ct + 0.095*loss + 0.071*dlrs + 0.056*shr + 0.046*profit + 0.039*year + 0.038*net + 0.031*qtr + 0.029*rev
+2016-05-10 21:57:55,446 : INFO : topic diff=0.091730, rho=0.258199
+2016-05-10 21:57:56,327 : INFO : PROGRESS: pass 7, at document #2800/5485
+2016-05-10 21:57:57,086 : INFO : optimized alpha [0.13024008861568961, 0.16960184039446199, 0.12825203722818534, 0.11318496371797059, 0.095787060925446185, 0.12413510925134401, 0.082406151049816412, 0.10399005415387697, 0.08705665591182507, 0.067149702112224097]
+2016-05-10 21:57:57,099 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:57,175 : INFO : topic #9 (0.067): 0.019*usair + 0.017*twa + 0.014*court + 0.013*merger + 0.012*airline + 0.010*caesar + 0.010*world + 0.010*piedmont + 0.007*department + 0.007*venezuela
+2016-05-10 21:57:57,177 : INFO : topic #6 (0.082): 0.079*oil + 0.037*price + 0.023*opec + 0.019*barrel + 0.018*dlrs + 0.018*mln + 0.015*bpd + 0.013*gas + 0.013*production + 0.013*saudi
+2016-05-10 21:57:57,178 : INFO : topic #2 (0.128): 0.056*bank + 0.040*pct + 0.033*mln + 0.032*rate + 0.027*billion + 0.027*year + 0.017*profit + 0.016*stg + 0.015*market + 0.012*reuter
+2016-05-10 21:57:57,180 : INFO : topic #0 (0.130): 0.046*dlrs + 0.033*company + 0.030*mln + 0.028*inc + 0.026*corp + 0.024*share + 0.022*unit + 0.022*reuter + 0.019*sale + 0.013*acquisition
+2016-05-10 21:57:57,181 : INFO : topic #1 (0.170): 0.108*mln + 0.101*ct + 0.094*loss + 0.067*dlrs + 0.057*shr + 0.044*profit + 0.037*year + 0.037*net + 0.032*qtr + 0.029*rev
+2016-05-10 21:57:57,183 : INFO : topic diff=0.105248, rho=0.258199
+2016-05-10 21:57:57,313 : INFO : PROGRESS: pass 7, at document #3500/5485
+2016-05-10 21:57:58,189 : INFO : optimized alpha [0.13181605508195035, 0.16857449352756421, 0.12723905284083514, 0.11552585738323436, 0.09579215350444728, 0.12471199734245079, 0.082128883760864926, 0.10505424156305489, 0.087729505307711883, 0.067779410201249488]
+2016-05-10 21:57:58,203 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:58,277 : INFO : topic #9 (0.068): 0.019*usair + 0.016*court + 0.016*twa + 0.014*merger + 0.012*airline + 0.011*caesar + 0.010*world + 0.010*piedmont + 0.007*department + 0.006*reuter
+2016-05-10 21:57:58,278 : INFO : topic #6 (0.082): 0.080*oil + 0.034*price + 0.020*opec + 0.018*dlrs + 0.018*barrel + 0.016*mln + 0.015*bpd + 0.013*energy + 0.013*gas + 0.013*production
+2016-05-10 21:57:58,280 : INFO : topic #2 (0.127): 0.057*bank + 0.040*pct + 0.034*mln + 0.029*rate + 0.028*billion + 0.027*year + 0.016*profit + 0.016*market + 0.014*stg + 0.012*reuter
+2016-05-10 21:57:58,281 : INFO : topic #0 (0.132): 0.044*dlrs + 0.032*company + 0.029*mln + 0.029*inc + 0.026*corp + 0.024*share + 0.022*reuter + 0.022*unit + 0.018*sale + 0.013*acquisition
+2016-05-10 21:57:58,283 : INFO : topic #1 (0.169): 0.109*mln + 0.098*ct + 0.095*loss + 0.069*dlrs + 0.057*shr + 0.045*profit + 0.037*year + 0.036*net + 0.032*qtr + 0.029*rev
+2016-05-10 21:57:58,284 : INFO : topic diff=0.089608, rho=0.258199
+2016-05-10 21:57:58,410 : INFO : PROGRESS: pass 7, at document #4200/5485
+2016-05-10 21:57:59,129 : INFO : optimized alpha [0.13252643492339633, 0.16878952373738182, 0.12902125582883192, 0.11617693788972489, 0.09767479395301068, 0.12433161102938081, 0.081815306057174644, 0.10486828751000427, 0.089007330190895267, 0.068295055457908468]
+2016-05-10 21:57:59,142 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:57:59,212 : INFO : topic #9 (0.068): 0.017*court + 0.016*usair + 0.014*merger + 0.014*twa + 0.011*airline + 0.009*piedmont + 0.008*caesar + 0.008*world + 0.008*southern + 0.007*department
+2016-05-10 21:57:59,213 : INFO : topic #6 (0.082): 0.081*oil + 0.034*price + 0.018*dlrs + 0.017*opec + 0.016*barrel + 0.015*mln + 0.015*energy + 0.015*bpd + 0.014*baker + 0.013*gas
+2016-05-10 21:57:59,215 : INFO : topic #2 (0.129): 0.053*bank + 0.039*pct + 0.035*mln + 0.029*billion + 0.029*rate + 0.026*year + 0.018*profit + 0.016*market + 0.016*stg + 0.012*reuter
+2016-05-10 21:57:59,216 : INFO : topic #0 (0.133): 0.043*dlrs + 0.033*company + 0.028*mln + 0.028*inc + 0.026*corp + 0.024*share + 0.022*unit + 0.021*reuter + 0.017*sale + 0.013*acquisition
+2016-05-10 21:57:59,218 : INFO : topic #1 (0.169): 0.115*mln + 0.097*ct + 0.095*loss + 0.066*dlrs + 0.056*shr + 0.044*profit + 0.038*year + 0.036*net + 0.031*qtr + 0.028*reuter
+2016-05-10 21:57:59,219 : INFO : topic diff=0.091664, rho=0.258199
+2016-05-10 21:57:59,343 : INFO : PROGRESS: pass 7, at document #4900/5485
+2016-05-10 21:58:00,107 : INFO : optimized alpha [0.13437858506155273, 0.16878612829341899, 0.13254710488167015, 0.11448838702430501, 0.09888626425175219, 0.1267917086408871, 0.082232837331262271, 0.10605639661698196, 0.090217183178855451, 0.069046217847005598]
+2016-05-10 21:58:00,120 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:58:00,186 : INFO : topic #9 (0.069): 0.017*court + 0.014*merger + 0.013*airline + 0.012*usair + 0.010*twa + 0.010*cpc + 0.008*caesar + 0.007*world + 0.007*piedmont + 0.007*honeywell
+2016-05-10 21:58:00,187 : INFO : topic #6 (0.082): 0.078*oil + 0.035*price + 0.018*dlrs + 0.016*barrel + 0.015*gas + 0.014*mln + 0.014*baker + 0.014*opec + 0.014*petroleum + 0.014*energy
+2016-05-10 21:58:00,188 : INFO : topic #2 (0.133): 0.052*bank + 0.038*pct + 0.034*mln + 0.029*billion + 0.028*rate + 0.026*year + 0.017*market + 0.017*stg + 0.017*profit + 0.014*dollar
+2016-05-10 21:58:00,189 : INFO : topic #0 (0.134): 0.044*dlrs + 0.031*company + 0.030*mln + 0.028*inc + 0.026*corp + 0.024*share + 0.023*unit + 0.021*reuter + 0.017*sale + 0.013*acquisition
+2016-05-10 21:58:00,190 : INFO : topic #1 (0.169): 0.114*mln + 0.099*loss + 0.095*ct + 0.065*dlrs + 0.055*shr + 0.044*profit + 0.039*year + 0.036*net + 0.030*qtr + 0.028*rev
+2016-05-10 21:58:00,191 : INFO : topic diff=0.100031, rho=0.258199
+2016-05-10 21:58:02,022 : INFO : -7.401 per-word bound, 169.1 perplexity estimate based on a held-out corpus of 585 documents with 24930 words
+2016-05-10 21:58:02,022 : INFO : PROGRESS: pass 7, at document #5485/5485
+2016-05-10 21:58:02,598 : INFO : optimized alpha [0.13657639262850219, 0.16609006621035527, 0.13676839779103911, 0.11394779908223739, 0.1002701591998274, 0.13028114187492221, 0.083079405278578114, 0.10800267658009199, 0.090748507395158426, 0.069806618884897739]
+2016-05-10 21:58:02,609 : INFO : merging changes from 585 documents into a model of 5485 documents
+2016-05-10 21:58:02,674 : INFO : topic #9 (0.070): 0.017*court + 0.012*merger + 0.011*airline + 0.009*usair + 0.009*cpc + 0.008*caesar + 0.008*twa + 0.007*world + 0.006*southern + 0.006*reuter
+2016-05-10 21:58:02,675 : INFO : topic #6 (0.083): 0.074*oil + 0.032*price + 0.017*dlrs + 0.016*baker + 0.015*mln + 0.015*gas + 0.015*barrel + 0.014*petroleum + 0.014*bpd + 0.013*energy
+2016-05-10 21:58:02,676 : INFO : topic #0 (0.137): 0.044*dlrs + 0.031*company + 0.030*mln + 0.028*inc + 0.026*corp + 0.024*share + 0.022*unit + 0.022*reuter + 0.017*sale + 0.014*acquisition
+2016-05-10 21:58:02,677 : INFO : topic #2 (0.137): 0.056*bank + 0.042*pct + 0.037*rate + 0.033*mln + 0.024*billion + 0.023*year + 0.016*market + 0.015*profit + 0.015*stg + 0.013*reuter
+2016-05-10 21:58:02,678 : INFO : topic #1 (0.166): 0.113*mln + 0.103*loss + 0.095*ct + 0.065*dlrs + 0.055*shr + 0.041*profit + 0.039*year + 0.034*net + 0.029*qtr + 0.029*rev
+2016-05-10 21:58:02,679 : INFO : topic diff=0.088135, rho=0.258199
+2016-05-10 21:58:02,787 : INFO : PROGRESS: pass 8, at document #700/5485
+2016-05-10 21:58:03,490 : INFO : optimized alpha [0.13518991126504254, 0.16874599272800755, 0.13458872971927055, 0.11524744168552939, 0.097855967964428539, 0.12663299810982692, 0.083585607651963767, 0.10676160373856174, 0.088334978749663076, 0.066531769588201992]
+2016-05-10 21:58:03,503 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:58:03,567 : INFO : topic #9 (0.067): 0.016*usair + 0.015*court + 0.014*twa + 0.013*airline + 0.013*merger + 0.012*piedmont + 0.008*world + 0.008*southern + 0.007*cpc + 0.007*caesar
+2016-05-10 21:58:03,569 : INFO : topic #6 (0.084): 0.072*oil + 0.036*price + 0.018*dlrs + 0.018*opec + 0.017*mln + 0.016*barrel + 0.014*gas + 0.013*production + 0.012*energy + 0.012*bpd
+2016-05-10 21:58:03,570 : INFO : topic #2 (0.135): 0.054*bank + 0.041*pct + 0.035*rate + 0.032*mln + 0.025*billion + 0.024*year + 0.016*profit + 0.016*market + 0.014*stg + 0.013*reuter
+2016-05-10 21:58:03,571 : INFO : topic #0 (0.135): 0.046*dlrs + 0.032*company + 0.031*mln + 0.030*inc + 0.026*corp + 0.024*share + 0.022*unit + 0.022*reuter + 0.017*sale + 0.013*acquisition
+2016-05-10 21:58:03,572 : INFO : topic #1 (0.169): 0.112*mln + 0.098*loss + 0.098*ct + 0.069*dlrs + 0.056*shr + 0.042*profit + 0.038*year + 0.036*net + 0.031*qtr + 0.029*rev
+2016-05-10 21:58:03,573 : INFO : topic diff=0.115447, rho=0.250000
+2016-05-10 21:58:04,451 : INFO : PROGRESS: pass 8, at document #1400/5485
+2016-05-10 21:58:05,167 : INFO : optimized alpha [0.13445331624463855, 0.16526078928997628, 0.13317916671358146, 0.11428386491136108, 0.097878432679649505, 0.12855743857892024, 0.084529213135768666, 0.10557706393434706, 0.08835562876778523, 0.069342964827727394]
+2016-05-10 21:58:05,179 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:58:05,244 : INFO : topic #9 (0.069): 0.023*usair + 0.019*twa + 0.016*merger + 0.013*piedmont + 0.011*airline + 0.011*court + 0.009*world + 0.008*caesar + 0.007*dome + 0.007*department
+2016-05-10 21:58:05,246 : INFO : topic #6 (0.085): 0.071*oil + 0.038*price + 0.021*opec + 0.019*dlrs + 0.019*mln + 0.016*barrel + 0.015*bpd + 0.013*baker + 0.013*production + 0.012*gas
+2016-05-10 21:58:05,247 : INFO : topic #2 (0.133): 0.059*bank + 0.040*pct + 0.037*rate + 0.033*mln + 0.026*billion + 0.024*year + 0.016*market + 0.015*profit + 0.014*stg + 0.013*reuter
+2016-05-10 21:58:05,248 : INFO : topic #0 (0.134): 0.048*dlrs + 0.032*company + 0.031*mln + 0.031*inc + 0.025*corp + 0.025*share + 0.022*unit + 0.022*reuter + 0.019*sale + 0.013*acquisition
+2016-05-10 21:58:05,249 : INFO : topic #1 (0.165): 0.115*mln + 0.098*loss + 0.095*ct + 0.073*dlrs + 0.056*shr + 0.043*profit + 0.039*year + 0.037*net + 0.031*qtr + 0.028*rev
+2016-05-10 21:58:05,250 : INFO : topic diff=0.137840, rho=0.250000
+2016-05-10 21:58:05,353 : INFO : PROGRESS: pass 8, at document #2100/5485
+2016-05-10 21:58:06,009 : INFO : optimized alpha [0.13287916895944835, 0.16576609692742314, 0.13199456252820521, 0.11403080341584866, 0.098422620997677165, 0.12703486997970892, 0.084364251294208187, 0.10520980148535575, 0.088543762728676353, 0.068238423529637202]
+2016-05-10 21:58:06,021 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:58:06,085 : INFO : topic #9 (0.068): 0.019*usair + 0.017*twa + 0.015*merger + 0.012*court + 0.011*piedmont + 0.011*caesar + 0.011*airline + 0.010*world + 0.007*venezuela + 0.007*department
+2016-05-10 21:58:06,087 : INFO : topic #6 (0.084): 0.072*oil + 0.038*price + 0.024*opec + 0.020*dlrs + 0.019*mln + 0.018*barrel + 0.017*bpd + 0.014*saudi + 0.012*production + 0.012*gas
+2016-05-10 21:58:06,088 : INFO : topic #2 (0.132): 0.057*bank + 0.040*pct + 0.034*mln + 0.033*rate + 0.027*billion + 0.025*year + 0.016*profit + 0.015*market + 0.015*stg + 0.013*reuter
+2016-05-10 21:58:06,089 : INFO : topic #0 (0.133): 0.048*dlrs + 0.032*company + 0.031*inc + 0.031*mln + 0.025*share + 0.025*corp + 0.022*reuter + 0.021*unit + 0.019*sale + 0.013*acquisition
+2016-05-10 21:58:06,090 : INFO : topic #1 (0.166): 0.112*mln + 0.099*ct + 0.095*loss + 0.071*dlrs + 0.056*shr + 0.046*profit + 0.038*year + 0.038*net + 0.031*qtr + 0.029*rev
+2016-05-10 21:58:06,091 : INFO : topic diff=0.087340, rho=0.250000
+2016-05-10 21:58:06,190 : INFO : PROGRESS: pass 8, at document #2800/5485
+2016-05-10 21:58:06,827 : INFO : optimized alpha [0.13214279547237182, 0.17124496134431419, 0.13005574789025698, 0.11396063144721977, 0.096660688843488371, 0.12622799700748208, 0.083049603223569163, 0.1059017701250874, 0.087951736170814754, 0.067559764318951124]
+2016-05-10 21:58:06,838 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:58:06,904 : INFO : topic #9 (0.068): 0.019*usair + 0.017*twa + 0.014*court + 0.013*merger + 0.013*airline + 0.010*caesar + 0.010*world + 0.010*piedmont + 0.008*department + 0.007*venezuela
+2016-05-10 21:58:06,905 : INFO : topic #6 (0.083): 0.078*oil + 0.037*price + 0.023*opec + 0.019*barrel + 0.018*dlrs + 0.018*mln + 0.015*bpd + 0.013*gas + 0.013*production + 0.013*saudi
+2016-05-10 21:58:06,906 : INFO : topic #2 (0.130): 0.057*bank + 0.040*pct + 0.033*mln + 0.032*rate + 0.027*billion + 0.026*year + 0.017*profit + 0.016*stg + 0.015*market + 0.012*reuter
+2016-05-10 21:58:06,907 : INFO : topic #0 (0.132): 0.046*dlrs + 0.033*company + 0.030*mln + 0.029*inc + 0.026*corp + 0.024*share + 0.022*unit + 0.022*reuter + 0.019*sale + 0.013*acquisition
+2016-05-10 21:58:06,908 : INFO : topic #1 (0.171): 0.108*mln + 0.101*ct + 0.094*loss + 0.067*dlrs + 0.057*shr + 0.044*profit + 0.037*year + 0.037*net + 0.032*qtr + 0.029*rev
+2016-05-10 21:58:06,909 : INFO : topic diff=0.100542, rho=0.250000
+2016-05-10 21:58:07,011 : INFO : PROGRESS: pass 8, at document #3500/5485
+2016-05-10 21:58:07,682 : INFO : optimized alpha [0.1335920550056483, 0.17018241293426539, 0.129020303057054, 0.11621494036183219, 0.096623549359711403, 0.12677152478052262, 0.082730857287800927, 0.10685142193913853, 0.088610765336893382, 0.068164504911727569]
+2016-05-10 21:58:07,693 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:58:07,758 : INFO : topic #9 (0.068): 0.019*usair + 0.016*court + 0.016*twa + 0.014*merger + 0.012*airline + 0.011*caesar + 0.010*world + 0.010*piedmont + 0.007*department + 0.006*reuter
+2016-05-10 21:58:07,759 : INFO : topic #6 (0.083): 0.080*oil + 0.034*price + 0.020*opec + 0.018*dlrs + 0.018*barrel + 0.016*mln + 0.015*bpd + 0.013*energy + 0.013*gas + 0.013*production
+2016-05-10 21:58:07,760 : INFO : topic #2 (0.129): 0.057*bank + 0.040*pct + 0.033*mln + 0.029*rate + 0.028*billion + 0.027*year + 0.016*profit + 0.016*market + 0.015*stg + 0.012*reuter
+2016-05-10 21:58:07,761 : INFO : topic #0 (0.134): 0.043*dlrs + 0.032*company + 0.029*mln + 0.029*inc + 0.026*corp + 0.024*share + 0.022*reuter + 0.022*unit + 0.018*sale + 0.013*acquisition
+2016-05-10 21:58:07,762 : INFO : topic #1 (0.170): 0.109*mln + 0.098*ct + 0.096*loss + 0.068*dlrs + 0.057*shr + 0.045*profit + 0.037*year + 0.036*net + 0.032*qtr + 0.029*rev
+2016-05-10 21:58:07,763 : INFO : topic diff=0.085429, rho=0.250000
+2016-05-10 21:58:07,868 : INFO : PROGRESS: pass 8, at document #4200/5485
+2016-05-10 21:58:08,573 : INFO : optimized alpha [0.13418805042565096, 0.17037517841979505, 0.13061106160244154, 0.11682898565982762, 0.098381743531077093, 0.12640451375336775, 0.082432567267840318, 0.10656617321851752, 0.089828605400926451, 0.068658404753060814]
+2016-05-10 21:58:08,585 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:58:08,656 : INFO : topic #9 (0.069): 0.017*court + 0.016*usair + 0.014*merger + 0.014*twa + 0.011*airline + 0.009*piedmont + 0.008*caesar + 0.008*world + 0.008*southern + 0.007*department
+2016-05-10 21:58:08,657 : INFO : topic #6 (0.082): 0.081*oil + 0.034*price + 0.018*dlrs + 0.018*opec + 0.016*barrel + 0.015*mln + 0.015*energy + 0.015*bpd + 0.014*baker + 0.013*gas
+2016-05-10 21:58:08,659 : INFO : topic #2 (0.131): 0.054*bank + 0.039*pct + 0.034*mln + 0.029*billion + 0.029*rate + 0.026*year + 0.017*profit + 0.016*market + 0.016*stg + 0.012*reuter
+2016-05-10 21:58:08,660 : INFO : topic #0 (0.134): 0.043*dlrs + 0.033*company + 0.028*inc + 0.028*mln + 0.026*corp + 0.024*share + 0.022*unit + 0.022*reuter + 0.017*sale + 0.013*acquisition
+2016-05-10 21:58:08,661 : INFO : topic #1 (0.170): 0.115*mln + 0.097*ct + 0.095*loss + 0.066*dlrs + 0.056*shr + 0.044*profit + 0.038*year + 0.036*net + 0.031*qtr + 0.028*reuter
+2016-05-10 21:58:08,662 : INFO : topic diff=0.087114, rho=0.250000
+2016-05-10 21:58:09,661 : INFO : PROGRESS: pass 8, at document #4900/5485
+2016-05-10 21:58:10,411 : INFO : optimized alpha [0.13595230228698882, 0.17037790695142205, 0.13402075963920743, 0.11511782269416215, 0.099488636640155489, 0.12864246384271028, 0.082820205652823525, 0.10756272896113259, 0.091077572599223999, 0.069355394474823251]
+2016-05-10 21:58:10,423 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:58:10,492 : INFO : topic #9 (0.069): 0.017*court + 0.014*merger + 0.013*airline + 0.013*usair + 0.011*twa + 0.010*cpc + 0.008*caesar + 0.007*world + 0.007*piedmont + 0.007*honeywell
+2016-05-10 21:58:10,493 : INFO : topic #6 (0.083): 0.078*oil + 0.035*price + 0.018*dlrs + 0.016*barrel + 0.015*gas + 0.014*mln + 0.014*baker + 0.014*opec + 0.014*energy + 0.014*petroleum
+2016-05-10 21:58:10,497 : INFO : topic #2 (0.134): 0.053*bank + 0.038*pct + 0.034*mln + 0.029*billion + 0.028*rate + 0.026*year + 0.017*market + 0.017*stg + 0.017*profit + 0.014*dollar
+2016-05-10 21:58:10,499 : INFO : topic #0 (0.136): 0.043*dlrs + 0.031*company + 0.030*mln + 0.028*inc + 0.026*corp + 0.024*share + 0.023*unit + 0.021*reuter + 0.017*sale + 0.013*acquisition
+2016-05-10 21:58:10,500 : INFO : topic #1 (0.170): 0.114*mln + 0.099*loss + 0.095*ct + 0.065*dlrs + 0.055*shr + 0.044*profit + 0.039*year + 0.036*net + 0.030*qtr + 0.028*rev
+2016-05-10 21:58:10,501 : INFO : topic diff=0.095517, rho=0.250000
+2016-05-10 21:58:12,406 : INFO : -7.393 per-word bound, 168.1 perplexity estimate based on a held-out corpus of 585 documents with 24930 words
+2016-05-10 21:58:12,407 : INFO : PROGRESS: pass 8, at document #5485/5485
+2016-05-10 21:58:12,999 : INFO : optimized alpha [0.13799602750643597, 0.1676560347699691, 0.13808863125640089, 0.11452009991504512, 0.10084868764812208, 0.13207631017338947, 0.083627533338921589, 0.10944305490236234, 0.091601088247235701, 0.070059845351752678]
+2016-05-10 21:58:13,011 : INFO : merging changes from 585 documents into a model of 5485 documents
+2016-05-10 21:58:13,078 : INFO : topic #9 (0.070): 0.017*court + 0.012*merger + 0.011*airline + 0.010*usair + 0.009*cpc + 0.008*twa + 0.008*caesar + 0.008*world + 0.007*southern + 0.006*reuter
+2016-05-10 21:58:13,080 : INFO : topic #6 (0.084): 0.074*oil + 0.032*price + 0.017*dlrs + 0.015*mln + 0.015*baker + 0.015*gas + 0.015*barrel + 0.014*petroleum + 0.014*bpd + 0.013*energy
+2016-05-10 21:58:13,081 : INFO : topic #0 (0.138): 0.044*dlrs + 0.031*company + 0.030*mln + 0.029*inc + 0.026*corp + 0.024*share + 0.022*unit + 0.022*reuter + 0.017*sale + 0.014*acquisition
+2016-05-10 21:58:13,082 : INFO : topic #2 (0.138): 0.057*bank + 0.042*pct + 0.037*rate + 0.032*mln + 0.024*billion + 0.023*year + 0.016*market + 0.015*profit + 0.015*stg + 0.013*reuter
+2016-05-10 21:58:13,083 : INFO : topic #1 (0.168): 0.113*mln + 0.103*loss + 0.095*ct + 0.066*dlrs + 0.055*shr + 0.042*profit + 0.039*year + 0.034*net + 0.029*qtr + 0.029*rev
+2016-05-10 21:58:13,084 : INFO : topic diff=0.084234, rho=0.250000
+2016-05-10 21:58:13,201 : INFO : PROGRESS: pass 9, at document #700/5485
+2016-05-10 21:58:13,931 : INFO : optimized alpha [0.13661116724241518, 0.17023228189588502, 0.13593427485823428, 0.11577278223248096, 0.098501453949568052, 0.12848606035959917, 0.084137983092867977, 0.1082215385120293, 0.089271892481085344, 0.066871067256850311]
+2016-05-10 21:58:13,942 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:58:14,010 : INFO : topic #9 (0.067): 0.016*usair + 0.015*court + 0.014*twa + 0.013*airline + 0.013*merger + 0.012*piedmont + 0.008*world + 0.008*southern + 0.007*cpc + 0.007*caesar
+2016-05-10 21:58:14,011 : INFO : topic #6 (0.084): 0.072*oil + 0.036*price + 0.018*dlrs + 0.018*opec + 0.017*mln + 0.016*barrel + 0.014*gas + 0.013*production + 0.013*energy + 0.012*bpd
+2016-05-10 21:58:14,012 : INFO : topic #2 (0.136): 0.054*bank + 0.041*pct + 0.035*rate + 0.032*mln + 0.025*billion + 0.024*year + 0.016*profit + 0.016*market + 0.014*stg + 0.013*reuter
+2016-05-10 21:58:14,014 : INFO : topic #0 (0.137): 0.046*dlrs + 0.032*company + 0.030*mln + 0.030*inc + 0.026*corp + 0.024*share + 0.022*reuter + 0.022*unit + 0.017*sale + 0.014*acquisition
+2016-05-10 21:58:14,015 : INFO : topic #1 (0.170): 0.113*mln + 0.098*loss + 0.098*ct + 0.069*dlrs + 0.056*shr + 0.042*profit + 0.038*year + 0.036*net + 0.031*qtr + 0.029*rev
+2016-05-10 21:58:14,016 : INFO : topic diff=0.110451, rho=0.242536
+2016-05-10 21:58:14,129 : INFO : PROGRESS: pass 9, at document #1400/5485
+2016-05-10 21:58:14,847 : INFO : optimized alpha [0.13595707852414599, 0.16674155994224499, 0.13460251189868241, 0.11487120639875839, 0.098513591615113347, 0.13028397439836925, 0.0850772736666984, 0.10706441412947525, 0.08925587347110002, 0.069607571156082917]
+2016-05-10 21:58:14,860 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:58:14,928 : INFO : topic #9 (0.070): 0.023*usair + 0.019*twa + 0.016*merger + 0.013*piedmont + 0.011*airline + 0.011*court + 0.009*world + 0.008*caesar + 0.007*dome + 0.007*department
+2016-05-10 21:58:14,930 : INFO : topic #6 (0.085): 0.071*oil + 0.038*price + 0.021*opec + 0.019*dlrs + 0.018*mln + 0.016*barrel + 0.015*bpd + 0.013*baker + 0.013*production + 0.013*gas
+2016-05-10 21:58:14,931 : INFO : topic #2 (0.135): 0.060*bank + 0.040*pct + 0.037*rate + 0.032*mln + 0.026*billion + 0.024*year + 0.016*market + 0.015*profit + 0.014*stg + 0.013*reuter
+2016-05-10 21:58:14,932 : INFO : topic #0 (0.136): 0.048*dlrs + 0.032*company + 0.031*mln + 0.031*inc + 0.026*corp + 0.025*share + 0.022*unit + 0.022*reuter + 0.018*sale + 0.014*acquisition
+2016-05-10 21:58:14,933 : INFO : topic #1 (0.167): 0.115*mln + 0.098*loss + 0.096*ct + 0.073*dlrs + 0.056*shr + 0.043*profit + 0.039*year + 0.037*net + 0.031*qtr + 0.028*rev
+2016-05-10 21:58:14,934 : INFO : topic diff=0.132626, rho=0.242536
+2016-05-10 21:58:15,041 : INFO : PROGRESS: pass 9, at document #2100/5485
+2016-05-10 21:58:15,711 : INFO : optimized alpha [0.13416543477785323, 0.16723294941770031, 0.13344947137819699, 0.11460329456557554, 0.099011828832484744, 0.12879375587092962, 0.084842199801276302, 0.10671338472598124, 0.08943112136257067, 0.068528732365861572]
+2016-05-10 21:58:15,723 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:58:15,791 : INFO : topic #9 (0.069): 0.020*usair + 0.017*twa + 0.015*merger + 0.013*court + 0.011*piedmont + 0.011*airline + 0.011*caesar + 0.010*world + 0.007*department + 0.007*venezuela
+2016-05-10 21:58:15,792 : INFO : topic #6 (0.085): 0.072*oil + 0.038*price + 0.024*opec + 0.019*dlrs + 0.019*mln + 0.018*barrel + 0.017*bpd + 0.014*saudi + 0.012*gas + 0.012*production
+2016-05-10 21:58:15,793 : INFO : topic #2 (0.133): 0.058*bank + 0.040*pct + 0.033*mln + 0.033*rate + 0.027*billion + 0.025*year + 0.016*profit + 0.015*market + 0.015*stg + 0.013*reuter
+2016-05-10 21:58:15,794 : INFO : topic #0 (0.134): 0.048*dlrs + 0.032*company + 0.031*inc + 0.030*mln + 0.025*corp + 0.025*share + 0.022*reuter + 0.021*unit + 0.019*sale + 0.013*acquisition
+2016-05-10 21:58:15,795 : INFO : topic #1 (0.167): 0.112*mln + 0.099*ct + 0.095*loss + 0.071*dlrs + 0.056*shr + 0.046*profit + 0.038*year + 0.038*net + 0.031*qtr + 0.029*rev
+2016-05-10 21:58:15,797 : INFO : topic diff=0.083799, rho=0.242536
+2016-05-10 21:58:16,689 : INFO : PROGRESS: pass 9, at document #2800/5485
+2016-05-10 21:58:17,359 : INFO : optimized alpha [0.1334223159380783, 0.17256931476619114, 0.13147615519328618, 0.11453898330730976, 0.097267411138435345, 0.12799428062900869, 0.083546602505747067, 0.10731771747949946, 0.088815239997243181, 0.067839412869707919]
+2016-05-10 21:58:17,373 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:58:17,445 : INFO : topic #9 (0.068): 0.019*usair + 0.017*twa + 0.014*court + 0.013*merger + 0.013*airline + 0.010*caesar + 0.010*world + 0.010*piedmont + 0.008*department + 0.007*venezuela
+2016-05-10 21:58:17,447 : INFO : topic #6 (0.084): 0.078*oil + 0.037*price + 0.023*opec + 0.019*barrel + 0.018*dlrs + 0.018*mln + 0.015*bpd + 0.014*gas + 0.013*production + 0.012*saudi
+2016-05-10 21:58:17,448 : INFO : topic #2 (0.131): 0.058*bank + 0.040*pct + 0.033*mln + 0.032*rate + 0.027*billion + 0.026*year + 0.016*profit + 0.016*stg + 0.015*market + 0.013*reuter
+2016-05-10 21:58:17,449 : INFO : topic #0 (0.133): 0.046*dlrs + 0.033*company + 0.029*mln + 0.029*inc + 0.026*corp + 0.024*share + 0.022*unit + 0.022*reuter + 0.019*sale + 0.013*acquisition
+2016-05-10 21:58:17,450 : INFO : topic #1 (0.173): 0.108*mln + 0.101*ct + 0.095*loss + 0.067*dlrs + 0.057*shr + 0.044*profit + 0.037*year + 0.037*net + 0.032*qtr + 0.029*rev
+2016-05-10 21:58:17,451 : INFO : topic diff=0.096418, rho=0.242536
+2016-05-10 21:58:17,556 : INFO : PROGRESS: pass 9, at document #3500/5485
+2016-05-10 21:58:18,251 : INFO : optimized alpha [0.13477637943601731, 0.17147146660389348, 0.13045032400461559, 0.11672587191319413, 0.097166176987259448, 0.12842988938856831, 0.083220132842957942, 0.10821896891290074, 0.089396708216783707, 0.068423251400021895]
+2016-05-10 21:58:18,263 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:58:18,331 : INFO : topic #9 (0.068): 0.019*usair + 0.016*court + 0.016*twa + 0.014*merger + 0.012*airline + 0.011*caesar + 0.010*world + 0.010*piedmont + 0.008*department + 0.006*reuter
+2016-05-10 21:58:18,333 : INFO : topic #6 (0.083): 0.080*oil + 0.034*price + 0.020*opec + 0.018*dlrs + 0.018*barrel + 0.016*mln + 0.015*bpd + 0.013*gas + 0.013*energy + 0.013*production
+2016-05-10 21:58:18,334 : INFO : topic #2 (0.130): 0.058*bank + 0.040*pct + 0.033*mln + 0.029*rate + 0.028*billion + 0.027*year + 0.016*profit + 0.016*market + 0.015*stg + 0.012*reuter
+2016-05-10 21:58:18,335 : INFO : topic #0 (0.135): 0.043*dlrs + 0.032*company + 0.029*inc + 0.029*mln + 0.026*corp + 0.024*share + 0.022*reuter + 0.022*unit + 0.018*sale + 0.013*acquisition
+2016-05-10 21:58:18,336 : INFO : topic #1 (0.171): 0.109*mln + 0.098*ct + 0.096*loss + 0.068*dlrs + 0.057*shr + 0.045*profit + 0.037*year + 0.036*net + 0.032*qtr + 0.029*rev
+2016-05-10 21:58:18,337 : INFO : topic diff=0.082049, rho=0.242536
+2016-05-10 21:58:18,445 : INFO : PROGRESS: pass 9, at document #4200/5485
+2016-05-10 21:58:19,221 : INFO : optimized alpha [0.13529370269633725, 0.17154856405371582, 0.13193256333683062, 0.11735634000263395, 0.098886198215678303, 0.12810582247535177, 0.082916519944040895, 0.10786348014615262, 0.09058878027490537, 0.068900485123647173]
+2016-05-10 21:58:19,233 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:58:19,300 : INFO : topic #9 (0.069): 0.017*court + 0.017*usair + 0.014*merger + 0.014*twa + 0.012*airline + 0.009*piedmont + 0.009*caesar + 0.008*world + 0.008*southern + 0.007*department
+2016-05-10 21:58:19,301 : INFO : topic #6 (0.083): 0.081*oil + 0.034*price + 0.018*dlrs + 0.018*opec + 0.016*barrel + 0.016*mln + 0.015*energy + 0.015*bpd + 0.014*baker + 0.013*gas
+2016-05-10 21:58:19,302 : INFO : topic #2 (0.132): 0.055*bank + 0.039*pct + 0.034*mln + 0.029*billion + 0.029*rate + 0.026*year + 0.017*profit + 0.016*market + 0.016*stg + 0.012*reuter
+2016-05-10 21:58:19,303 : INFO : topic #0 (0.135): 0.043*dlrs + 0.033*company + 0.029*inc + 0.028*mln + 0.026*corp + 0.024*share + 0.022*unit + 0.022*reuter + 0.017*sale + 0.013*acquisition
+2016-05-10 21:58:19,304 : INFO : topic #1 (0.172): 0.115*mln + 0.097*ct + 0.095*loss + 0.066*dlrs + 0.056*shr + 0.044*profit + 0.038*year + 0.036*net + 0.031*qtr + 0.028*reuter
+2016-05-10 21:58:19,305 : INFO : topic diff=0.083347, rho=0.242536
+2016-05-10 21:58:19,424 : INFO : PROGRESS: pass 9, at document #4900/5485
+2016-05-10 21:58:20,141 : INFO : optimized alpha [0.13694548282177141, 0.17137073221695534, 0.13535999775511523, 0.11562936964117608, 0.099975080222759458, 0.13027228873050223, 0.083280272994744484, 0.1090498330152827, 0.091683711175327254, 0.069551515080463144]
+2016-05-10 21:58:20,154 : INFO : merging changes from 700 documents into a model of 5485 documents
+2016-05-10 21:58:20,218 : INFO : topic #9 (0.070): 0.017*court + 0.014*merger + 0.014*airline + 0.013*usair + 0.011*twa + 0.010*cpc + 0.008*caesar + 0.007*world + 0.007*piedmont + 0.007*southern
+2016-05-10 21:58:20,220 : INFO : topic #6 (0.083): 0.078*oil + 0.035*price + 0.018*dlrs + 0.016*barrel + 0.015*gas + 0.015*mln + 0.014*opec + 0.014*baker + 0.014*energy + 0.014*petroleum
+2016-05-10 21:58:20,221 : INFO : topic #2 (0.135): 0.053*bank + 0.038*pct + 0.034*mln + 0.029*billion + 0.028*rate + 0.025*year + 0.017*market + 0.017*stg + 0.016*profit + 0.014*dollar
+2016-05-10 21:58:20,222 : INFO : topic #0 (0.137): 0.043*dlrs + 0.031*company + 0.030*mln + 0.028*inc + 0.026*corp + 0.024*share + 0.023*unit + 0.022*reuter + 0.017*sale + 0.014*acquisition
+2016-05-10 21:58:20,223 : INFO : topic #1 (0.171): 0.114*mln + 0.099*loss + 0.095*ct + 0.065*dlrs + 0.055*shr + 0.044*profit + 0.039*year + 0.036*net + 0.030*qtr + 0.028*rev
+2016-05-10 21:58:20,224 : INFO : topic diff=0.091605, rho=0.242536
+2016-05-10 21:58:22,016 : INFO : -7.386 per-word bound, 167.3 perplexity estimate based on a held-out corpus of 585 documents with 24930 words
+2016-05-10 21:58:22,016 : INFO : PROGRESS: pass 9, at document #5485/5485
+2016-05-10 21:58:22,580 : INFO : optimized alpha [0.13896442642440007, 0.16867826017082177, 0.13928611411213065, 0.11513039426534334, 0.10119874426584347, 0.13357406542682695, 0.084022029631476175, 0.11096876023009539, 0.092170499593101321, 0.070265605264345971]
+2016-05-10 21:58:22,591 : INFO : merging changes from 585 documents into a model of 5485 documents
+2016-05-10 21:58:22,655 : INFO : topic #9 (0.070): 0.017*court + 0.012*merger + 0.011*airline + 0.010*usair + 0.009*cpc + 0.008*twa + 0.008*caesar + 0.008*world + 0.007*southern + 0.006*piedmont
+2016-05-10 21:58:22,656 : INFO : topic #6 (0.084): 0.074*oil + 0.032*price + 0.017*dlrs + 0.016*mln + 0.015*gas + 0.015*baker + 0.015*barrel + 0.014*petroleum + 0.014*bpd + 0.013*energy
+2016-05-10 21:58:22,657 : INFO : topic #0 (0.139): 0.044*dlrs + 0.031*company + 0.030*mln + 0.029*inc + 0.026*corp + 0.024*share + 0.022*unit + 0.022*reuter + 0.017*sale + 0.014*acquisition
+2016-05-10 21:58:22,658 : INFO : topic #2 (0.139): 0.057*bank + 0.042*pct + 0.036*rate + 0.032*mln + 0.025*billion + 0.023*year + 0.016*market + 0.015*profit + 0.015*stg + 0.013*reuter
+2016-05-10 21:58:22,659 : INFO : topic #1 (0.169): 0.113*mln + 0.103*loss + 0.095*ct + 0.065*dlrs + 0.055*shr + 0.042*profit + 0.039*year + 0.034*net + 0.029*qtr + 0.029*rev
+2016-05-10 21:58:22,660 : INFO : topic diff=0.080894, rho=0.242536
+2016-05-10 21:59:15,514 : INFO : saving LdaState object under data/lda.model.state, separately None
+2016-05-10 21:59:15,548 : INFO : saving LdaModel object under data/lda.model, separately None
+2016-05-10 21:59:15,549 : INFO : not storing attribute state
+2016-05-10 21:59:15,549 : INFO : not storing attribute dispatcher
+2016-05-10 21:59:15,676 : INFO : loading LdaModel object from data/lda.model
+2016-05-10 21:59:15,702 : INFO : loading id2word recursively from data/lda.model.id2word.* with mmap=None
+2016-05-10 21:59:15,703 : INFO : setting ignored attribute state to None
+2016-05-10 21:59:15,703 : INFO : setting ignored attribute dispatcher to None
+2016-05-10 21:59:15,703 : INFO : loading LdaModel object from data/lda.model.state
