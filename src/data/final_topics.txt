@@ -1,0 +1,10 @@
+0:0.034*tonne + 0.020*stock + 0.019*sugar + 0.016*price + 0.015*reuter + 0.014*trader + 0.012*cocoa + 0.011*crop + 0.011*week + 0.011*producer
+1:0.049*trade + 0.021*export + 0.015*japan + 0.015*country + 0.014*official + 0.014*import + 0.014*year + 0.013*coffee + 0.013*market + 0.012*state
+2:0.022*company + 0.021*reuter + 0.016*gold + 0.013*mine + 0.013*steel + 0.013*corp + 0.012*plant + 0.010*unit + 0.010*ton + 0.009*ltd
+3:0.071*ct + 0.063*dividend + 0.057*reuter + 0.047*stock + 0.043*april + 0.041*record + 0.036*share + 0.029*pay + 0.028*march + 0.024*split
+4:0.053*oil + 0.029*gas + 0.025*dlrs + 0.025*company + 0.023*reuter + 0.022*price + 0.020*pipeline + 0.018*barrel + 0.014*corp + 0.013*ct
+5:0.059*share + 0.043*company + 0.021*stock + 0.021*group + 0.019*dlrs + 0.018*reuter + 0.017*offer + 0.016*inc + 0.015*corp + 0.013*acquisition
+6:0.148*mln + 0.104*ct + 0.094*loss + 0.053*shr + 0.047*reuter + 0.043*rev + 0.042*profit + 0.033*dlrs + 0.026*note + 0.026*year
+7:0.065*dlrs + 0.055*year + 0.042*mln + 0.032*quarter + 0.024*sale + 0.024*company + 0.021*earnings + 0.017*pct + 0.017*profit + 0.014*reuter
+8:0.041*price + 0.036*oil + 0.027*year + 0.023*pct + 0.014*production + 0.014*reuter + 0.012*government + 0.011*minister + 0.011*output + 0.010*month
+9:0.074*bank + 0.042*rate + 0.023*market + 0.019*pct + 0.018*dollar + 0.015*reuter + 0.015*currency + 0.013*exchange + 0.013*money + 0.013*interest

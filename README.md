@@ -1,3 +1,18 @@
+To run the program, 
+
+1. you need to download the processed Reuters R10 dataset from the following link
+http://csmining.org/tl_files/Project_Datasets/r8%20r52/r8-train-all-terms.txt
+http://csmining.org/tl_files/Project_Datasets/r8%20r52/r8-test-all-terms.txt
+
+2. create the virtual environment for python and pip install all the required dependencies with the requirements.txt
+
+3. run the trainlda.py file to build the lda model
+
+4. use the attached ipython notebook to run the classifiers (involves further setting up of ipython notebook)
+
+
+More Details:
+
 Reuters dataset:
 
 http://www.daviddlewis.com/resources/testcollections/reuters21578/reuters21578.tar.gz

@@ -1,0 +1,10 @@
+0:0.044*dlrs + 0.031*company + 0.030*mln + 0.029*inc + 0.026*corp + 0.024*share + 0.022*unit + 0.022*reuter + 0.017*sale + 0.014*acquisition
+1:0.113*mln + 0.103*loss + 0.095*ct + 0.065*dlrs + 0.055*shr + 0.042*profit + 0.039*year + 0.034*net + 0.029*qtr + 0.029*rev
+2:0.057*bank + 0.042*pct + 0.036*rate + 0.032*mln + 0.025*billion + 0.023*year + 0.016*market + 0.015*profit + 0.015*stg + 0.013*reuter
+3:0.073*ct + 0.053*april + 0.052*dividend + 0.050*reuter + 0.043*share + 0.041*stock + 0.027*div + 0.027*record + 0.027*march + 0.025*inc
+4:0.037*offer + 0.020*tender + 0.019*dlrs + 0.013*dlr + 0.012*agreement + 0.011*share + 0.009*paris + 0.007*brazil + 0.007*reuter + 0.006*pct
+5:0.042*share + 0.030*company + 0.024*group + 0.021*pct + 0.019*stock + 0.019*stake + 0.017*security + 0.013*board + 0.013*offer + 0.013*reuter
+6:0.074*oil + 0.032*price + 0.017*dlrs + 0.016*mln + 0.015*gas + 0.015*baker + 0.015*barrel + 0.014*petroleum + 0.014*bpd + 0.013*energy
+7:0.058*dlrs + 0.048*company + 0.038*year + 0.031*quarter + 0.026*earnings + 0.018*analyst + 0.017*sale + 0.016*share + 0.013*result + 0.010*mln
+8:0.037*trade + 0.019*japan + 0.017*official + 0.013*country + 0.013*state + 0.012*government + 0.011*market + 0.011*minister + 0.010*year + 0.009*export
+9:0.017*court + 0.012*merger + 0.011*airline + 0.010*usair + 0.009*cpc + 0.008*twa + 0.008*caesar + 0.008*world + 0.007*southern + 0.006*piedmont
